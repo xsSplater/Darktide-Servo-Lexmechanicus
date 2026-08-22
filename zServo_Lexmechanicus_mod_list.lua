@@ -71,24 +71,28 @@ return {
 			["zh-cn"] = "闪击结束动作",
 		}
 	},
+	
 	["helbore_passive_charge"] = {
 		category = "Controls",
 		localized_name = { -- 21.08.2026
 			en = "Helbore Passive Charge",
 		}
 	},
+	
 	["AutoBlitz"] = {
 		category = "Controls",
 		localized_name = { -- 21.08.2026
 			en = "AutoBlitz",
 		}
 	},
+	
 	["Skitarius"] = {
 		category = "Controls",
 		localized_name = { -- 21.08.2026
 			en = "Skitarius",
 		}
 	},
+	
 	["StickyFingers"] = {
 		category = "Controls",
 		localized_name = { -- 06.01.2026
@@ -406,6 +410,7 @@ return {
 			["zh-cn"] = "正确的任务投票信息",
 		}
 	},
+	
 	["crosshairs_fix"] = {
 		category = "Fixes",
 		localized_name = { -- 06.01.2026
@@ -414,6 +419,7 @@ return {
 			["zh-cn"] = "准星修复",
 		}
 	},
+	
 	["GasOutline"] = {
 		category = "Fixes",
 		localized_name = { -- 06.01.2026
@@ -421,6 +427,7 @@ return {
 			ru = "Контуры в газе",
 		}
 	},
+	
 	["MemLeakFix"] = {
 		category = "Fixes",
 		localized_name = { -- 06.01.2026
@@ -429,6 +436,7 @@ return {
 			["zh-cn"] = "内存泄漏修复",
 		}
 	},
+	
 	["YesTakeCandle"] = {
 		category = "Fixes",
 		localized_name = { -- 06.01.2026
@@ -522,144 +530,168 @@ return {
 			en = "AlternateGrenadeIcons",
 		}
 	},
+	
 	["BetterNameplate"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "BetterNameplate",
 		}
 	},
+	
 	["Better Pet Targets"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "BetterPetTargets",
 		}
 	},
+	
 	["DynamicCrosshair"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "DynamicCrosshair",
 		}
 	},
+	
 	["EmperorsGuidance"] = {
 		category = "Controls",
 		localized_name = { -- 21.08.2026
 			en = "EmperorsGuidance",
 		}
 	},
+	
 	["GiftShredder"] = {
 		category = "QoL",
 		localized_name = { -- 21.08.2026
 			en = "GiftShredder",
 		}
 	},
+	
 	["Let Me See My Scanner"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "Let Me See My Scanner",
 		}
 	},
+	
 	["MinionKillfeed"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "MinionKillfeed",
 		}
 	},
+	
 	["PlayerDeathfeed"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "PlayerDeathfeed",
 		}
 	},
+	
 	["ProfilePictures"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "ProfilePictures",
 		}
 	},
+	
 	["RecoveryMeters"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "RecoveryMeters",
 		}
 	},
+	
 	["ServoSkullNametag"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "ServoSkullNametag",
 		}
 	},
+	
 	["ShowCnJaKoGlyphsPlus"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "ShowCnJaKoGlyphsPlus",
 		}
 	},
+	
 	["SpecialsTracker"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "SpecialsTracker",
 		}
 	},
+	
 	["TeamAbilityCooldowns"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "TeamAbilityCooldowns",
 		}
 	},
+	
 	["VoxChat"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "VoxChat",
 		}
 	},
+	
 	["ability_timer"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "Ability Timer",
 		}
 	},
+	
 	["better_buff_management"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "Better Buff Management",
 		}
 	},
+	
 	["bot_hud_transparency"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "Bot Hud Transparency",
 		}
 	},
+	
 	["crosshair_hud"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "Crosshair Hud",
 		}
 	},
+	
 	["crosshair_remap"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "Crosshair Remap",
 		}
 	},
+	
 	["objective_tracker"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "Objective Tracker",
 		}
 	},
+	
 	["shorten_usernames"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "Shorten Usernames",
 		}
 	},
+	
 	["vt2_scoreboard"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
 			en = "Vt2 Scoreboard",
 		}
 	},
+	
 	["wound_customizer"] = {
 		category = "HUD",
 		localized_name = { -- 21.08.2026
@@ -679,6 +711,7 @@ return {
 			ja = "バレル",
 		}
 	},
+	
 	["better_hud_info_view"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -688,6 +721,7 @@ return {
 			["zh-tw"] = "HUD 資訊視覺優化",
 		}
 	},
+	
 	["BrokerStimTimer"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -695,6 +729,7 @@ return {
 			ru = "Таймер стимулятора Отребья",
 		}
 	},
+	
 	["ChatBlock"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -703,6 +738,7 @@ return {
 			["zh-cn"] = "聊天自动格挡",
 		}
 	},
+	
 	["custom_hud"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -711,6 +747,7 @@ return {
 			["zh-cn"] = "自定义 HUD",
 		}
 	},
+	
 	["DisplayPing"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -718,6 +755,7 @@ return {
 			ru = "Индикатор пинга",
 		}
 	},
+	
 	["Healthbars"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -728,6 +766,7 @@ return {
 			fr = "Barres de santé",
 		}
 	},
+	
 	["hideprompts"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -736,6 +775,7 @@ return {
 			["zh-cn"] = "隐藏按键提示",
 		}
 	},
+	
 	["HUDTweaker"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -744,6 +784,7 @@ return {
 			["zh-cn"] = "HUD 调整器",
 		}
 	},
+	
 	["kill_tracker"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -755,6 +796,7 @@ return {
 			["zh-cn"] = "击杀追踪器",
 		}
 	},
+	
 	["KillfeedImprovements"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -763,6 +805,7 @@ return {
 			["zh-cn"] = "击杀消息优化",
 		}
 	},
+	
 	["NumericUI"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -773,6 +816,7 @@ return {
 			fr = "Numeric UI",
 		}
 	},
+	
 	["PerilGauge"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -781,6 +825,7 @@ return {
 			["zh-cn"] = "危机值指示器",
 		}
 	},
+	
 	["pickup_notif_tweaker"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -788,6 +833,7 @@ return {
 			ru = "Уведомления о поднятии предметов",
 		}
 	},
+	
 	["RecolorBossHealthBars"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -797,6 +843,7 @@ return {
 			["zh-tw"] = "重繪Boss血條",
 		}
 	},
+	
 	["scoreboard"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -807,6 +854,7 @@ return {
 			["zh-cn"] = "记分板",
 		}
 	},
+	
 	["show_crit_chance"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -816,6 +864,7 @@ return {
 			["zh-cn"] = "显示暴击率",
 		}
 	},
+	
 	["SimpleSpeedMeter"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -825,6 +874,7 @@ return {
 			["zh-tw"] = "簡易速度計",
 		}
 	},
+	
 	["StaminaVis"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -833,6 +883,7 @@ return {
 			["zh-cn"] = "体力可视化",
 		}
 	},
+	
 	["TalentUI"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -840,6 +891,7 @@ return {
 			ru = "Таланты в интерфейсе",
 		}
 	},
+	
 	["train_timer"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -847,6 +899,7 @@ return {
 			ru = "Таймер поезда",
 		}
 	},
+	
 	["true_level"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -856,6 +909,7 @@ return {
 			["zh-tw"] = "真實等級",
 		}
 	},
+	
 	["WarpUnboundTimer"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -864,6 +918,7 @@ return {
 			["zh-cn"] = "亚空间解放计时器",
 		}
 	},
+	
 	["who_are_you"] = {
 		category = "HUD",
 		localized_name = { -- 06.01.2026
@@ -881,6 +936,7 @@ return {
 			en = "Enemies Improved",
 		}
 	},
+	
 	["debuff_indicator"] = {
 		category = "Indicators",
 		localized_name = { -- 06.01.2026
@@ -966,6 +1022,7 @@ return {
 			["zh-cn"] = "高亮猎犬引爆范围",
 		}
 	},
+	
 	["markers_aio"] = {
 		category = "Indicators",
 		localized_name = { -- 06.01.2026
@@ -975,6 +1032,7 @@ return {
 			["zh-cn"] = "图标改进集成",
 		}
 	},
+	
 	["mauler_attack_indicator"] = {
 		category = "Indicators",
 		localized_name = { -- 06.01.2026
@@ -983,6 +1041,7 @@ return {
 			["zh-cn"] = "屠杀者攻击指示器",
 		}
 	},
+	
 	["outline_colours"] = {
 		category = "Indicators",
 		localized_name = { -- 06.01.2026
@@ -991,6 +1050,7 @@ return {
 			["zh-cn"] = "轮廓颜色",
 		}
 	},
+	
 	["PlayerOutlines"] = {
 		category = "Indicators",
 		localized_name = { -- 06.01.2026
@@ -999,6 +1059,7 @@ return {
 			["zh-cn"] = "玩家边框轮廓",
 		}
 	},
+	
 	["RecolorStimms"] = {
 		category = "Indicators",
 		localized_name = { -- 06.01.2026
@@ -1007,6 +1068,7 @@ return {
 			["zh-cn"] = "兴奋剂染色",
 		}
 	},
+	
 	["ScanHelper"] = {
 		category = "Indicators",
 		localized_name = { -- 06.01.2026
@@ -1014,6 +1076,7 @@ return {
 			ru = "Помощник сканирования",
 		}
 	},
+	
 	["Spidey Sense"] = {
 		category = "Indicators",
 		localized_name = { -- 06.01.2026
@@ -1023,6 +1086,7 @@ return {
 			["zh-tw"] = "蜘蛛感應",
 		}
 	},
+	
 	["status_colours"] = {
 		category = "Indicators",
 		localized_name = { -- 06.01.2026
@@ -1031,6 +1095,7 @@ return {
 			["zh-cn"] = "状态图标颜色",
 		}
 	},
+	
 	["StimmSupplyRings"] = {
 		category = "Indicators",
 		localized_name = { -- 06.01.2026
@@ -1038,6 +1103,7 @@ return {
 			ru = "Кольца стим-ящиков",
 		}
 	},
+	
 	["ticking_barrels"] = {
 		category = "Indicators",
 		localized_name = { -- 06.01.2026
@@ -1045,6 +1111,7 @@ return {
 			ru = "Тикающие бочки",
 		}
 	},
+	
 	["TraumaOutlines"] = {
 		category = "Indicators",
 		localized_name = { -- 06.01.2026
@@ -1052,6 +1119,7 @@ return {
 			ru = "Выделение взрываемых врагов для Травмы",
 		}
 	},
+	
 	["whats_in_the_box"] = {
 		category = "Indicators",
 		localized_name = { -- 06.01.2026
@@ -1256,6 +1324,7 @@ return {
 			["zh-tw"] = "紅色武器",
 		}
 	},
+	
 	["ShowMeRealWeaponStats"] = {
 		category = "Inventory",
 		localized_name = { -- 06.01.2026
@@ -1264,6 +1333,7 @@ return {
 			["zh-cn"] = "给我显示真实的武器数据",
 		}
 	},
+	
 	["SortBrunt"] = {
 		category = "Inventory",
 		localized_name = { -- 06.01.2026
@@ -1531,6 +1601,7 @@ return {
 			["zh-cn"] = "梅尔克协议优化",
 		}
 	},
+	
 	["cancel_loading"] = {
 		category = "Menu",
 		localized_name = { -- 06.01.2026
@@ -1540,6 +1611,7 @@ return {
 			["zh-cn"] = "加载取消",
 		}
 	},
+	
 	["character_cosmetics_view_improved"] = {
 		category = "Menu",
 		localized_name = { -- 06.01.2026
@@ -1548,6 +1620,7 @@ return {
 			["zh-cn"] = "角色装饰品视图改进",
 		}
 	},
+	
 	["CharacterGrid"] = {
 		category = "Menu",
 		localized_name = { -- 06.01.2026
@@ -1556,6 +1629,7 @@ return {
 			["zh-cn"] = "角色选择重新排序",
 		}
 	},
+	
 	["commadores_vestures_improved"] = {
 		category = "Menu",
 		localized_name = { -- 06.01.2026
@@ -1564,6 +1638,7 @@ return {
 			["zh-cn"] = "准将的服装改进",
 		}
 	},
+	
 	["DifficultyColor"] = {
 		category = "Menu",
 		localized_name = { -- 06.01.2026
@@ -1572,6 +1647,7 @@ return {
 			["zh-cn"] = "难度颜色",
 		}
 	},
+	
 	["DistinctSideMissionIcons"] = {
 		category = "Menu",
 		localized_name = { -- 06.01.2026
@@ -1580,6 +1656,7 @@ return {
 			["zh-cn"] = "区分次要目标图标",
 		}
 	},
+	
 	["Enhanced_descriptions"] = {
 		category = "Menu",
 		localized_name = { -- 06.01.2026
@@ -1723,6 +1800,7 @@ return {
 			["zh-cn"] = "苦修视图改进",
 		}
 	},
+	
 	["PenancesForTheMission"] = {
 		category = "Penances",
 		localized_name = { -- 06.01.2026
@@ -1739,6 +1817,7 @@ return {
 			en = "State Your Name",
 		}
 	},
+	
 	["Muzzle"] = {
 		category = "QoL",
 		localized_name = { -- 21.08.2026
@@ -1830,6 +1909,7 @@ return {
 			["zh-cn"] = "自动准备",
 		}
 	},
+	
 	["ImprovedHavocTags"] = {
 		category = "QoL",
 		localized_name = { -- 06.01.2026

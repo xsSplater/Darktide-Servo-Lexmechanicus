@@ -900,13 +900,6 @@ return {
 		}
 	},
 
-	["ServoSkullDistance"] = {
-		category = "Indicators",
-		localized_name = { -- 21.08.2026
-			en = "ServoSkullDistance",
-		}
-	},
-
 	["ServoSkullAlerts"] = {
 		category = "Indicators",
 		localized_name = { -- 21.08.2026
@@ -1980,6 +1973,13 @@ return {
 			en = "Camera Freeflight",
 			ru = "Свободный полёт камеры",
 			["zh-cn"] = "自由飞行视角",
+		}
+	},
+	
+	["ServoSkullDistance"] = {
+		category = "Visuals",
+		localized_name = { -- 21.08.2026
+			en = "ServoSkullDistance",
 		}
 	},
 

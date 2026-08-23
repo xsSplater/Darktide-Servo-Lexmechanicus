@@ -1,0 +1,58 @@
+{
+	"name": "Servo-Lexmechanicus",
+	"description": "A Lexmechanicus servo-unit for categorizing and cataloging mods. Blessed by the Omnissiah.",
+	"version": "1.0.0",
+	"author": "xsSplater",
+	"homepage": "https://www.nexusmods.com/warhammer40kdarktide/mods/680",
+	"source": "https://github.com/xsSplater/Darktide-Servo-Lexmechanicus",
+	"funding": {
+		"boosty": "https://boosty.to/xssplater",
+		"donationalerts": "https://www.donationalerts.com/r/xssplater"
+	},
+	"localization": {
+		"de": {
+			"name": "Servo-Lexmechanicus",
+			"description": "Eine Lexmechanicus-Servo-Einheit zur Kategorisierung und Katalogisierung von Mods. Vom Omnissiah gesegnet."
+		},
+		"es": {
+			"name": "Servo-Lexmechanicus",
+			"description": "Una unidad servo Lexmechanicus para categorizar y catalogar mods. Bendecido por el Omnissiah."
+		},
+		"fr": {
+			"name": "Servo-Lexmechanicus",
+			"description": "Une unité servo Lexmechanicus pour catégoriser et cataloguer les mods. Béni par l'Omnissiah."
+		},
+		"it": {
+			"name": "Servo-Lexmechanicus",
+			"description": "Un'unità servo Lexmechanicus per categorizzare e catalogare mod. Benedetto dall'Omnissiah."
+		},
+		"ja": {
+			"name": "サーヴォ・レクスメカニクス",
+			"description": "MODを分類・カタログ化するレクスメカニクス・サーヴォユニット。オムニサイアの祝福を受けて。"
+		},
+		"ko": {
+			"name": "서보 렉스메카니쿠스",
+			"description": "MOD를 분류하고 목록화하는 렉스메카니쿠스 서보 유닛. 오미니시아의 축복을 받았습니다."
+		},
+		"pl": {
+			"name": "Servo-Lexmechanicus",
+			"description": "Jednostka servo Lexmechanicus do kategoryzacji i katalogowania modów. Błogosławiona przez Omnissiah."
+		},
+		"pt-br": {
+			"name": "Servo-Lexmechanicus",
+			"description": "Uma unidade servo Lexmechanicus para categorizar e catalogar mods. Abençoado pelo Omnissiah."
+		},
+		"ru": {
+			"name": "Серво-Лексмеханикус",
+			"description": "Servo-Lexmechanicus - Сервитор Лексмеханикус: категоризация и каталогизация модов. Во имя Омниссии."
+		},
+		"zh-cn": {
+			"name": "伺服律法机械",
+			"description": "用于分类和编目模组的律法机械伺服单元。受万机之神祝福。"
+		},
+		"zh-tw": {
+			"name": "伺服律法機械",
+			"description": "用於分類和編目模組的律法機械伺服單元。受萬機之神祝福。"
+		}
+	}
+}

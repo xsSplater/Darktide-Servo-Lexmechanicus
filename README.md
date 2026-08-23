@@ -1,14 +1,11 @@
-# How to add a mod
-
-To add your mod to a **[Category]**, you need to add it to the list in the **zServo_Lexmechanicus_mod_list** file:
-```lua
-        ["YourModFolderName"] = {
-                category = "ChosenCategory",
-                localized_name = { -- Date and YourNickname(if you want)
-                       -- en = "", -- Copy the translations from the "YourModName_localization.lua" file.
-                       -- ru = "",
-                       -- ["zh-tw"] = "",
-                       -- ["zh-cn"] = "",
-                }
-        },
-```
+# Servo-Lexmechanicus
+## Lexmechanicus servo-unit for categorizing and cataloging mods.
+<div align="left">
+	<table>
+		<tr>
+			<td valign="middle" align="center" width="15%">
+				<a href="https://www.playdarktide.com"><img src="https://staticdelivery.nexusmods.com/mods/4943/images/680/680-1767642411-2080256860.png"></a>
+			</td>
+		</tr>
+	</table>
+</div>

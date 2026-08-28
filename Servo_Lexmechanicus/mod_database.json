@@ -1,5 +1,5 @@
 {
-	"version": "2.0.5",
+	"version": "2.0.6",
 	"mod_database": [
 		{
 			"folder": "for_the_drip",
@@ -83,7 +83,7 @@
 				"zh-hant": "包括拆除了分劃板的反射式瞄準鏡的複製品。"
 			},
 			"author": "grasmann - Backup158",
-			"category": "Visuals",
+			"category": "Cosmetics",
 			"url": "",
 			"github_url": "https://github.com/Backup158/DarktideWeaponCustomizationEmptySights/",
 			"note": {
@@ -802,56 +802,6 @@
 			}
 		},
 		{
-			"folder": "scoreboard",
-			"nexus_file_pattern": "scoreboard",
-			"name": {
-				"de": "Scoreboard",
-				"en": "Scoreboard",
-				"es": "Marcador",
-				"fr": "Tableau des scores",
-				"it": "Tabellone punteggi",
-				"ja": "スコアボード",
-				"ko": "스코어보드",
-				"pl": "Tablica wyników",
-				"pt-BR": "Placar",
-				"ru": "Таблица результатов",
-				"zh-hans": "记分板",
-				"zh-hant": "記分板"
-			},
-			"description": {
-				"de": "Zeigt nach Missionsende ein Scoreboard mit individuellen Statistiken.",
-				"en": "Shows a scoreboard after missions and additional messages for certain actions during gameplay.\nSaves scoreboards for later review.\nLoads scoreboard rows defined in other mods.",
-				"es": "Muestra un marcador con varias estadísticas individuales al final de las misiones.",
-				"fr": "Ajoute un tableau des scores avec diverses statistiques individuelles à la fin des missions.",
-				"it": "Mostra un tabellone punteggi con varie statistiche individuali alla fine delle missioni.",
-				"ja": "ミッション終了時に個別統計を含むスコアボードを表示します。",
-				"ko": "미션 종료 시 다양한 개인 통계를 포함한 스코어보드를 표시합니다.",
-				"pl": "Wyświetla tablicę wyników z różnymi indywidualnymi statystykami po zakończeniu misji.",
-				"pt-BR": "Mostra um placar com várias estatísticas individuais no final das missões.",
-				"ru": "Scoreboard - Добавляет таблицу результатов с различной индивидуальной статистикой в конце миссий.",
-				"zh-hans": "任务结束时添加显示各种统计数据的记分板。",
-				"zh-hant": "任務結束時添加顯示各種統計數據的記分板。"
-			},
-			"author": "grasmann",
-			"category": "HUD",
-			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/22",
-			"github_url": "https://github.com/grasmann/darktide-mods/tree/main/scoreboard",
-			"note": {
-				"de": "Weiche Abhängigkeit von Animation Events, die Animationen zählt.",
-				"en": "Soft dependency on Animation events, which counts animations.",
-				"es": "Dependencia suave de Animation events, que cuenta las animaciones.",
-				"fr": "Dépendance douce à Animation events, qui compte les animations.",
-				"it": "Dipendenza morbida da Animation events, che conta le animazioni.",
-				"ja": "アニメーションをカウントするAnimation eventsへのソフト依存。",
-				"ko": "애니메이션을 계산하는 Animation events에 대한 소프트 종속성.",
-				"pl": "Miękka zależność od Animation events, który zlicza animacje.",
-				"pt-BR": "Dependência suave de Animation events, que conta animações.",
-				"ru": "Мягкая зависимость от Animation events, который считает анимации.",
-				"zh-hans": "对计数动画的动画事件模组有软依赖。",
-				"zh-hant": "對計數動畫的動畫事件模組有軟依賴。"
-			}
-		},
-		{
 			"folder": "scoreboard_example_plugin",
 			"nexus_file_pattern": "scoreboard",
 			"name": {
@@ -899,6 +849,56 @@
 				"ru": "Требуется: Scoreboard.",
 				"zh-hans": "需要：Scoreboard。",
 				"zh-hant": "需要：Scoreboard。"
+			}
+		},
+		{
+			"folder": "scoreboard",
+			"nexus_file_pattern": "scoreboard",
+			"name": {
+				"de": "Scoreboard",
+				"en": "Scoreboard",
+				"es": "Marcador",
+				"fr": "Tableau des scores",
+				"it": "Tabellone punteggi",
+				"ja": "スコアボード",
+				"ko": "스코어보드",
+				"pl": "Tablica wyników",
+				"pt-BR": "Placar",
+				"ru": "Таблица результатов",
+				"zh-hans": "记分板",
+				"zh-hant": "記分板"
+			},
+			"description": {
+				"de": "Zeigt nach Missionsende ein Scoreboard mit individuellen Statistiken.",
+				"en": "Shows a scoreboard after missions and additional messages for certain actions during gameplay.\nSaves scoreboards for later review.\nLoads scoreboard rows defined in other mods.",
+				"es": "Muestra un marcador con varias estadísticas individuales al final de las misiones.",
+				"fr": "Ajoute un tableau des scores avec diverses statistiques individuelles à la fin des missions.",
+				"it": "Mostra un tabellone punteggi con varie statistiche individuali alla fine delle missioni.",
+				"ja": "ミッション終了時に個別統計を含むスコアボードを表示します。",
+				"ko": "미션 종료 시 다양한 개인 통계를 포함한 스코어보드를 표시합니다.",
+				"pl": "Wyświetla tablicę wyników z różnymi indywidualnymi statystykami po zakończeniu misji.",
+				"pt-BR": "Mostra um placar com várias estatísticas individuais no final das missões.",
+				"ru": "Scoreboard - Добавляет таблицу результатов с различной индивидуальной статистикой в конце миссий.",
+				"zh-hans": "任务结束时添加显示各种统计数据的记分板。",
+				"zh-hant": "任務結束時添加顯示各種統計數據的記分板。"
+			},
+			"author": "grasmann",
+			"category": "HUD",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/22",
+			"github_url": "https://github.com/grasmann/darktide-mods/tree/main/scoreboard",
+			"note": {
+				"de": "Weiche Abhängigkeit von Animation Events, die Animationen zählt.",
+				"en": "Soft dependency on Animation events, which counts animations.",
+				"es": "Dependencia suave de Animation events, que cuenta las animaciones.",
+				"fr": "Dépendance douce à Animation events, qui compte les animations.",
+				"it": "Dipendenza morbida da Animation events, che conta le animazioni.",
+				"ja": "アニメーションをカウントするAnimation eventsへのソフト依存。",
+				"ko": "애니메이션을 계산하는 Animation events에 대한 소프트 종속성.",
+				"pl": "Miękka zależność od Animation events, który zlicza animacje.",
+				"pt-BR": "Dependência suave de Animation events, que conta animações.",
+				"ru": "Мягкая зависимость от Animation events, который считает анимации.",
+				"zh-hans": "对计数动画的动画事件模组有软依赖。",
+				"zh-hant": "對計數動畫的動畫事件模組有軟依賴。"
 			}
 		},
 		{
@@ -2530,6 +2530,34 @@
 			}
 		},
 		{
+			"folder": "KOREAN_ScoreboardDamage",
+			"nexus_file_pattern": "scoreboard Damage",
+			"name": {
+				"en": "Scoreboard Damage (ko-kr)"
+			},
+			"description": {
+				"en": "스코어보드 모드 한글 번역판"
+			},
+			"author": "hgcl2",
+			"category": "HUD",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/65",
+			"github_url": "",
+			"note": {
+				"de": "Erforderlich: Scoreboard.",
+				"en": "Required: Scoreboard.",
+				"es": "Requerido: Scoreboard.",
+				"fr": "Requis : Scoreboard.",
+				"it": "Richiede: Scoreboard.",
+				"ja": "必要条件: Scoreboard。",
+				"ko": "필요: Scoreboard.",
+				"pl": "Wymagane: Scoreboard.",
+				"pt-BR": "Requerido: Scoreboard.",
+				"ru": "Требуется: Scoreboard.",
+				"zh-hans": "需要：Scoreboard。",
+				"zh-hant": "需要：Scoreboard。"
+			}
+		},
+		{
 			"folder": "KOREAN_ScoreboardExplosive",
 			"nexus_file_pattern": "scoreboard Explosive",
 			"name": {
@@ -2558,10 +2586,10 @@
 			}
 		},
 		{
-			"folder": "KOREAN_ScoreboardDamage",
-			"nexus_file_pattern": "scoreboard Damage",
+			"folder": "KOREAN_ScoreboardAmmos",
+			"nexus_file_pattern": "scoreboard Ammunitions picked",
 			"name": {
-				"en": "Scoreboard Damage (ko-kr)"
+				"en": "Scoreboard Ammunitions picked (ko-kr)"
 			},
 			"description": {
 				"en": "스코어보드 모드 한글 번역판"
@@ -2618,34 +2646,6 @@
 			"nexus_file_pattern": "scoreboard enhanced defense plugin-65",
 			"name": {
 				"en": "Scoreboard Enhanced Defense Plugin (ko-kr)"
-			},
-			"description": {
-				"en": "스코어보드 모드 한글 번역판"
-			},
-			"author": "hgcl2",
-			"category": "HUD",
-			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/65",
-			"github_url": "",
-			"note": {
-				"de": "Erforderlich: Scoreboard.",
-				"en": "Required: Scoreboard.",
-				"es": "Requerido: Scoreboard.",
-				"fr": "Requis : Scoreboard.",
-				"it": "Richiede: Scoreboard.",
-				"ja": "必要条件: Scoreboard。",
-				"ko": "필요: Scoreboard.",
-				"pl": "Wymagane: Scoreboard.",
-				"pt-BR": "Requerido: Scoreboard.",
-				"ru": "Требуется: Scoreboard.",
-				"zh-hans": "需要：Scoreboard。",
-				"zh-hant": "需要：Scoreboard。"
-			}
-		},
-		{
-			"folder": "KOREAN_ScoreboardAmmos",
-			"nexus_file_pattern": "scoreboard Ammunitions picked",
-			"name": {
-				"en": "Scoreboard Ammunitions picked (ko-kr)"
 			},
 			"description": {
 				"en": "스코어보드 모드 한글 번역판"
@@ -6798,56 +6798,6 @@
 			}
 		},
 		{
-			"folder": "WhatTheLocalization",
-			"nexus_file_pattern": "whatthelocalization-163",
-			"name": {
-				"de": "Was zur Lokalisierung",
-				"en": "What The Localization",
-				"es": "Qué localización",
-				"fr": "Quelle localisation",
-				"it": "Che localizzazione",
-				"ja": "ローカライゼーションって何",
-				"ko": "무슨 현지화",
-				"pl": "Co za lokalizacja",
-				"pt-BR": "Que localização",
-				"ru": "Что за локализация",
-				"zh-hans": "什么是本地化",
-				"zh-hant": "什麼是本地化"
-			},
-			"description": {
-				"de": "Ein von der Community betriebenes Framework zur Lokalisierungsbehebung und Debug-Tool.",
-				"en": "A community-driven localization fix framework and debug tool.",
-				"es": "Un framework de corrección de localización y herramienta de depuración impulsado por la comunidad.",
-				"fr": "Un framework de correction de localisation et un outil de débogage piloté par la communauté.",
-				"it": "Un framework di correzione della localizzazione e strumento di debug guidato dalla comunità.",
-				"ja": "コミュニティ主導のローカライゼーション修正フレームワークおよびデバッグツール。",
-				"ko": "커뮤니티 기반 현지화 수정 프레임워크 및 디버그 도구.",
-				"pl": "Społecznościowa struktura naprawy lokalizacji i narzędzie do debugowania.",
-				"pt-BR": "Um framework de correção de localização e ferramenta de depuração orientado pela comunidade.",
-				"ru": "What The Localization - Созданный сообществом фреймворк для исправления локализации и инструмент отладки.",
-				"zh-hans": "一个社区驱动的本地化修复框架和调试工具。",
-				"zh-hant": "一個社群驅動的本地化修復框架和除錯工具。"
-			},
-			"author": "deluxghost",
-			"category": "Tools",
-			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/163",
-			"github_url": "https://github.com/deluxghost/darktide-mods/tree/main/WhatTheLocalization",
-			"note": {
-				"de": "",
-				"en": "",
-				"es": "",
-				"fr": "",
-				"it": "",
-				"ja": "",
-				"ko": "",
-				"pl": "",
-				"pt-BR": "",
-				"ru": "",
-				"zh-hans": "",
-				"zh-hant": ""
-			}
-		},
-		{
 			"folder": "ExampleLocalizationBundle",
 			"nexus_file_pattern": "examplelocalizationbundle-163",
 			"name": {
@@ -6882,6 +6832,56 @@
 			"category": "ToolsControls",
 			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/163",
 			"github_url": "https://github.com/deluxghost/darktide-mods/tree/main/ExampleLocalizationBundle",
+			"note": {
+				"de": "",
+				"en": "",
+				"es": "",
+				"fr": "",
+				"it": "",
+				"ja": "",
+				"ko": "",
+				"pl": "",
+				"pt-BR": "",
+				"ru": "",
+				"zh-hans": "",
+				"zh-hant": ""
+			}
+		},
+		{
+			"folder": "WhatTheLocalization",
+			"nexus_file_pattern": "whatthelocalization-163",
+			"name": {
+				"de": "Was zur Lokalisierung",
+				"en": "What The Localization",
+				"es": "Qué localización",
+				"fr": "Quelle localisation",
+				"it": "Che localizzazione",
+				"ja": "ローカライゼーションって何",
+				"ko": "무슨 현지화",
+				"pl": "Co za lokalizacja",
+				"pt-BR": "Que localização",
+				"ru": "Что за локализация",
+				"zh-hans": "什么是本地化",
+				"zh-hant": "什麼是本地化"
+			},
+			"description": {
+				"de": "Ein von der Community betriebenes Framework zur Lokalisierungsbehebung und Debug-Tool.",
+				"en": "A community-driven localization fix framework and debug tool.",
+				"es": "Un framework de corrección de localización y herramienta de depuración impulsado por la comunidad.",
+				"fr": "Un framework de correction de localisation et un outil de débogage piloté par la communauté.",
+				"it": "Un framework di correzione della localizzazione e strumento di debug guidato dalla comunità.",
+				"ja": "コミュニティ主導のローカライゼーション修正フレームワークおよびデバッグツール。",
+				"ko": "커뮤니티 기반 현지화 수정 프레임워크 및 디버그 도구.",
+				"pl": "Społecznościowa struktura naprawy lokalizacji i narzędzie do debugowania.",
+				"pt-BR": "Um framework de correção de localização e ferramenta de depuração orientado pela comunidade.",
+				"ru": "What The Localization - Созданный сообществом фреймворк для исправления локализации и инструмент отладки.",
+				"zh-hans": "一个社区驱动的本地化修复框架和调试工具。",
+				"zh-hant": "一個社群驅動的本地化修復框架和除錯工具。"
+			},
+			"author": "deluxghost",
+			"category": "Tools",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/163",
+			"github_url": "https://github.com/deluxghost/darktide-mods/tree/main/WhatTheLocalization",
 			"note": {
 				"de": "",
 				"en": "",
@@ -11026,56 +11026,6 @@
 			}
 		},
 		{
-			"folder": "extended_weapon_customization",
-			"nexus_file_pattern": "extended weapon customization-277",
-			"name": {
-				"de": "Erweiterte Waffenanpassung",
-				"en": "Extended Weapon Customization",
-				"es": "Personalización de armas extendida",
-				"fr": "Personnalisation avancée des armes",
-				"it": "Personalizzazione armi estesa",
-				"ja": "拡張武器カスタマイズ",
-				"ko": "확장 무기 커스터마이즈",
-				"pl": "Rozszerzone dostosowywanie broni",
-				"pt-BR": "Personalização de armas estendida",
-				"ru": "Расширенная настройка оружия",
-				"zh-hans": "扩展武器定制",
-				"zh-hant": "擴展武器定製"
-			},
-			"description": {
-				"de": "Waffenanpassung, Taschenlampen, Visiere, Zielfernrohre, Ausrüstung auf dem Rücken. Fügt verschiedene Arten von QoL- und Immersionsverbesserungen hinzu. Und noch viele weitere Sachen.",
-				"en": "Weapon customization, flashlights, sights, scopes, equipment on back. Adds different kinds of qol and immersion things.And a bunch more stuff.",
-				"es": "Personalización de armas, linternas, miras, visores, equipo en la espalda. Añade varios tipos de mejoras de calidad de vida e inmersión. Y muchas otras cosas.",
-				"fr": "Personnalisation des armes, lampes de poche, viseurs, lunettes, équipement sur le dos. Ajoute différents types d'améliorations de qualité de vie et d'immersion. Et bien d'autres choses.",
-				"it": "Personalizzazione delle armi, torce, mirini, cannocchiali, equipaggiamento sulla schiena. Aggiunge vari tipi di miglioramenti QoL e di immersione. E molte altre cose.",
-				"ja": "武器のカスタマイズ、懐中電灯、サイト、スコープ、背中の装備。さまざまなQoLと没入感の向上を追加します。その他にも多数の機能があります。",
-				"ko": "무기 커스터마이즈, 손전등, 조준경, 스코프, 등 장비. 다양한 QoL 및 몰입감 향상 기능을 추가합니다. 그 외에도 많은 것들이 있습니다.",
-				"pl": "Dostosowywanie broni, latarki, celowniki, lunety, wyposażenie na plecach. Dodaje różne rodzaje ulepszeń jakości życia i immersji. I wiele innych rzeczy.",
-				"pt-BR": "Personalização de armas, lanternas, miras, lunetas, equipamento nas costas. Adiciona vários tipos de melhorias de qualidade de vida e imersão. E muitas outras coisas.",
-				"ru": "Extended Weapon Customization - Настройка оружия, фонарики, прицелы, оптические прицелы, экипировка на спину. Добавляет различные улучшения качества жизни и погружения. И многое другое.",
-				"zh-hans": "武器定制、手电筒、准星、瞄准镜、背部装备。添加各种生活质量改进和沉浸感增强。还有很多其他内容。",
-				"zh-hant": "武器定製、手電筒、準星、瞄準鏡、背部裝備。添加各種生活品質改進和沉浸感增強。還有很多其他內容。"
-			},
-			"author": "grasmann",
-			"category": "Visuals",
-			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/277",
-			"github_url": "https://github.com/grasmann/darktide-mods/tree/main/extended_weapon_customization",
-			"note": {
-				"de": "Erforderlich: MasterItems Community Patch und Visual Loadout Customization Community Patch.",
-				"en": "Required: MasterItems Community Patch and Visual Loadout Customization Community Patch.",
-				"es": "Requerido: MasterItems Community Patch y Visual Loadout Customization Community Patch.",
-				"fr": "Requis : MasterItems Community Patch et Visual Loadout Customization Community Patch.",
-				"it": "Richiede: MasterItems Community Patch e Visual Loadout Customization Community Patch.",
-				"ja": "必要条件: MasterItems Community Patch と Visual Loadout Customization Community Patch。",
-				"ko": "필요: MasterItems Community Patch 및 Visual Loadout Customization Community Patch.",
-				"pl": "Wymagane: MasterItems Community Patch i Visual Loadout Customization Community Patch.",
-				"pt-BR": "Requerido: MasterItems Community Patch e Visual Loadout Customization Community Patch.",
-				"ru": "Требуется: MasterItems Community Patch и Visual Loadout Customization Community Patch.",
-				"zh-hans": "需要：MasterItems Community Patch 和 Visual Loadout Customization Community Patch。",
-				"zh-hant": "需要：MasterItems Community Patch 和 Visual Loadout Customization Community Patch。"
-			}
-		},
-		{
 			"folder": "extended_weapon_customization_base_additions",
 			"nexus_file_pattern": "extended weapon customization base additions-277",
 			"name": {
@@ -11107,7 +11057,7 @@
 				"zh-hant": "武器定製、手電筒、準星、瞄準鏡、背部裝備。添加各種生活品質改進和沉浸感增強。還有很多其他內容。"
 			},
 			"author": "grasmann",
-			"category": "Visuals",
+			"category": "Cosmetics",
 			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/277",
 			"github_url": "https://github.com/grasmann/darktide-mods/tree/main/extended_weapon_customization_base_additions",
 			"note": {
@@ -11123,6 +11073,56 @@
 				"ru": "Требуется: Extended Weapon Customization.",
 				"zh-hans": "需要：Extended Weapon Customization。",
 				"zh-hant": "需要：Extended Weapon Customization。"
+			}
+		},
+		{
+			"folder": "extended_weapon_customization",
+			"nexus_file_pattern": "extended weapon customization-277",
+			"name": {
+				"de": "Erweiterte Waffenanpassung",
+				"en": "Extended Weapon Customization",
+				"es": "Personalización de armas extendida",
+				"fr": "Personnalisation avancée des armes",
+				"it": "Personalizzazione armi estesa",
+				"ja": "拡張武器カスタマイズ",
+				"ko": "확장 무기 커스터마이즈",
+				"pl": "Rozszerzone dostosowywanie broni",
+				"pt-BR": "Personalização de armas estendida",
+				"ru": "Расширенная настройка оружия",
+				"zh-hans": "扩展武器定制",
+				"zh-hant": "擴展武器定製"
+			},
+			"description": {
+				"de": "Waffenanpassung, Taschenlampen, Visiere, Zielfernrohre, Ausrüstung auf dem Rücken. Fügt verschiedene Arten von QoL- und Immersionsverbesserungen hinzu. Und noch viele weitere Sachen.",
+				"en": "Weapon customization, flashlights, sights, scopes, equipment on back. Adds different kinds of qol and immersion things.And a bunch more stuff.",
+				"es": "Personalización de armas, linternas, miras, visores, equipo en la espalda. Añade varios tipos de mejoras de calidad de vida e inmersión. Y muchas otras cosas.",
+				"fr": "Personnalisation des armes, lampes de poche, viseurs, lunettes, équipement sur le dos. Ajoute différents types d'améliorations de qualité de vie et d'immersion. Et bien d'autres choses.",
+				"it": "Personalizzazione delle armi, torce, mirini, cannocchiali, equipaggiamento sulla schiena. Aggiunge vari tipi di miglioramenti QoL e di immersione. E molte altre cose.",
+				"ja": "武器のカスタマイズ、懐中電灯、サイト、スコープ、背中の装備。さまざまなQoLと没入感の向上を追加します。その他にも多数の機能があります。",
+				"ko": "무기 커스터마이즈, 손전등, 조준경, 스코프, 등 장비. 다양한 QoL 및 몰입감 향상 기능을 추가합니다. 그 외에도 많은 것들이 있습니다.",
+				"pl": "Dostosowywanie broni, latarki, celowniki, lunety, wyposażenie na plecach. Dodaje różne rodzaje ulepszeń jakości życia i immersji. I wiele innych rzeczy.",
+				"pt-BR": "Personalização de armas, lanternas, miras, lunetas, equipamento nas costas. Adiciona vários tipos de melhorias de qualidade de vida e imersão. E muitas outras coisas.",
+				"ru": "Extended Weapon Customization - Настройка оружия, фонарики, прицелы, оптические прицелы, экипировка на спину. Добавляет различные улучшения качества жизни и погружения. И многое другое.",
+				"zh-hans": "武器定制、手电筒、准星、瞄准镜、背部装备。添加各种生活质量改进和沉浸感增强。还有很多其他内容。",
+				"zh-hant": "武器定製、手電筒、準星、瞄準鏡、背部裝備。添加各種生活品質改進和沉浸感增強。還有很多其他內容。"
+			},
+			"author": "grasmann",
+			"category": "Cosmetics",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/277",
+			"github_url": "https://github.com/grasmann/darktide-mods/tree/main/extended_weapon_customization",
+			"note": {
+				"de": "Erforderlich: MasterItems Community Patch und Visual Loadout Customization Community Patch.",
+				"en": "Required: MasterItems Community Patch and Visual Loadout Customization Community Patch.",
+				"es": "Requerido: MasterItems Community Patch y Visual Loadout Customization Community Patch.",
+				"fr": "Requis : MasterItems Community Patch et Visual Loadout Customization Community Patch.",
+				"it": "Richiede: MasterItems Community Patch e Visual Loadout Customization Community Patch.",
+				"ja": "必要条件: MasterItems Community Patch と Visual Loadout Customization Community Patch。",
+				"ko": "필요: MasterItems Community Patch 및 Visual Loadout Customization Community Patch.",
+				"pl": "Wymagane: MasterItems Community Patch i Visual Loadout Customization Community Patch.",
+				"pt-BR": "Requerido: MasterItems Community Patch e Visual Loadout Customization Community Patch.",
+				"ru": "Требуется: MasterItems Community Patch и Visual Loadout Customization Community Patch.",
+				"zh-hans": "需要：MasterItems Community Patch 和 Visual Loadout Customization Community Patch。",
+				"zh-hant": "需要：MasterItems Community Patch 和 Visual Loadout Customization Community Patch。"
 			}
 		},
 		{
@@ -12076,8 +12076,8 @@
 			}
 		},
 		{
-			"folder": "FenyaTitleZ",
-			"nexus_file_pattern": "fenya titles pokazushnik-311",
+			"folder": "FenyaTitleZ_Dojd",
+			"nexus_file_pattern": "fenya titles dojd-311",
 			"name": {
 				"de": "Fenya Titles - RU ONLY",
 				"en": "Fenya Titles - RU ONLY",
@@ -12126,8 +12126,8 @@
 			}
 		},
 		{
-			"folder": "FenyaTitleZ_Dojd",
-			"nexus_file_pattern": "fenya titles dojd-311",
+			"folder": "FenyaTitleZ",
+			"nexus_file_pattern": "fenya titles pokazushnik-311",
 			"name": {
 				"de": "Fenya Titles - RU ONLY",
 				"en": "Fenya Titles - RU ONLY",
@@ -13176,6 +13176,56 @@
 			}
 		},
 		{
+			"folder": "PsykerCriticalPerilQuiet",
+			"nexus_file_pattern": "quieter",
+			"name": {
+				"de": "Leiserer kritischer Gefahrenhinweis des Psykers",
+				"en": "Quieter Psyker Critical Peril",
+				"es": "Peligro crítico del Psíquico más silencioso",
+				"fr": "Péril critique du Psyker plus silencieux",
+				"it": "Pericolo critico del Psichico più silenzioso",
+				"ja": "より静かなサイカー危機的危険音",
+				"ko": "더 조용한 사이커 위험 경보음",
+				"pl": "Cichsze ostrzeżenie o krytycznym niebezpieczeństwie Psychera",
+				"pt-BR": "Perigo crítico do Psíquico mais silencioso",
+				"ru": "Тише звук критической опасности псайкера",
+				"zh-hans": "更安静的灵能者临界危险音效",
+				"zh-hant": "更安靜的靈能者臨界危險音效"
+			},
+			"description": {
+				"de": "VERALTET!",
+				"en": "OBSOLETE!",
+				"es": "¡OBSOLETO!",
+				"fr": "OBSOLÈTE !",
+				"it": "OBSOLETO!",
+				"ja": "廃止！",
+				"ko": "구식!",
+				"pl": "PRZESTARZAŁY!",
+				"pt-BR": "OBSOLETO!",
+				"ru": "УСТАРЕЛ!",
+				"zh-hans": "已过时！",
+				"zh-hant": "已過時！"
+			},
+			"author": "OrangeKing64",
+			"category": "Audio",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/333",
+			"github_url": "",
+			"note": {
+				"de": "",
+				"en": "",
+				"es": "",
+				"fr": "",
+				"it": "",
+				"ja": "",
+				"ko": "",
+				"pl": "",
+				"pt-BR": "",
+				"ru": "",
+				"zh-hans": "",
+				"zh-hant": ""
+			}
+		},
+		{
 			"folder": "PsykerCriticalPerilQuiet_Mute",
 			"nexus_file_pattern": "quieter",
 			"name": {
@@ -13227,56 +13277,6 @@
 		},
 		{
 			"folder": "PsykerCriticalPerilQuiet_Super_Quiet",
-			"nexus_file_pattern": "quieter",
-			"name": {
-				"de": "Leiserer kritischer Gefahrenhinweis des Psykers",
-				"en": "Quieter Psyker Critical Peril",
-				"es": "Peligro crítico del Psíquico más silencioso",
-				"fr": "Péril critique du Psyker plus silencieux",
-				"it": "Pericolo critico del Psichico più silenzioso",
-				"ja": "より静かなサイカー危機的危険音",
-				"ko": "더 조용한 사이커 위험 경보음",
-				"pl": "Cichsze ostrzeżenie o krytycznym niebezpieczeństwie Psychera",
-				"pt-BR": "Perigo crítico do Psíquico mais silencioso",
-				"ru": "Тише звук критической опасности псайкера",
-				"zh-hans": "更安静的灵能者临界危险音效",
-				"zh-hant": "更安靜的靈能者臨界危險音效"
-			},
-			"description": {
-				"de": "VERALTET!",
-				"en": "OBSOLETE!",
-				"es": "¡OBSOLETO!",
-				"fr": "OBSOLÈTE !",
-				"it": "OBSOLETO!",
-				"ja": "廃止！",
-				"ko": "구식!",
-				"pl": "PRZESTARZAŁY!",
-				"pt-BR": "OBSOLETO!",
-				"ru": "УСТАРЕЛ!",
-				"zh-hans": "已过时！",
-				"zh-hant": "已過時！"
-			},
-			"author": "OrangeKing64",
-			"category": "Audio",
-			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/333",
-			"github_url": "",
-			"note": {
-				"de": "",
-				"en": "",
-				"es": "",
-				"fr": "",
-				"it": "",
-				"ja": "",
-				"ko": "",
-				"pl": "",
-				"pt-BR": "",
-				"ru": "",
-				"zh-hans": "",
-				"zh-hant": ""
-			}
-		},
-		{
-			"folder": "PsykerCriticalPerilQuiet",
 			"nexus_file_pattern": "quieter",
 			"name": {
 				"de": "Leiserer kritischer Gefahrenhinweis des Psykers",
@@ -16957,7 +16957,7 @@
 				"zh-hant": "Ostracized without Objection (OwO) - 擴展武器定製插件 - 添加各種部件，通常受歷史武器啟發。"
 			},
 			"author": "Backup158",
-			"category": "Visuals",
+			"category": "Cosmetics",
 			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/429",
 			"github_url": "https://github.com/Backup158/DarktideWeaponCustomizationOwO",
 			"note": {
@@ -17926,56 +17926,6 @@
 			}
 		},
 		{
-			"folder": "___Scoreboard",
-			"nexus_file_pattern": "___Scoreboard-459",
-			"name": {
-				"de": "Mod-Listen-Trennzeichen - Scoreboard",
-				"en": "Mod List Dividers - Scoreboard",
-				"es": "Separadores de lista de mods - Scoreboard",
-				"fr": "Séparateurs de liste de mods - Scoreboard",
-				"it": "Separatori della lista mod - Scoreboard",
-				"ja": "MODリスト区切り - Scoreboard",
-				"ko": "모드 목록 구분선 - Scoreboard",
-				"pl": "Separatory listy modów - Scoreboard",
-				"pt-BR": "Separadores de lista de mods - Scoreboard",
-				"ru": "Разделители списка модов - Scoreboard",
-				"zh-hans": "模组列表分隔符 - Scoreboard",
-				"zh-hant": "模組列表分隔符 - Scoreboard"
-			},
-			"description": {
-				"de": "Fügt einen Trenner zur linken Liste hinzu. Diese Mod hat keinen Einfluss auf das Spiel.",
-				"en": "This mod adds a divider to the left list. This mod has no effect on the game.",
-				"es": "Añade un separador a la lista izquierda. Este mod no tiene efecto en el juego.",
-				"fr": "Ajoute un séparateur à la liste de gauche. Ce mod n'a aucun effet sur le jeu.",
-				"it": "Aggiunge un separatore all'elenco di sinistra. Questa mod non ha alcun effetto sul gioco.",
-				"ja": "左側のリストに区切りを追加します。このMODはゲームに影響を与えません。",
-				"ko": "왼쪽 목록에 구분선을 추가합니다. 이 모드는 게임에 영향을 미치지 않습니다.",
-				"pl": "Dodaje separator do lewej listy. Ten mod nie ma wpływu na grę.",
-				"pt-BR": "Adiciona um separador à lista esquerda. Este mod não tem efeito no jogo.",
-				"ru": "Mod List Dividers - Scoreboard - Добавляет разделитель в левый список. Этот мод не влияет на игру.",
-				"zh-hans": "在左侧列表中添加一个分隔符。此模组对游戏没有影响。",
-				"zh-hant": "在左側列表中添加一個分隔符。此模組對遊戲沒有影響。"
-			},
-			"author": "hgcl2",
-			"category": "Menu",
-			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/459",
-			"github_url": "",
-			"note": {
-				"de": "",
-				"en": "",
-				"es": "",
-				"fr": "",
-				"it": "",
-				"ja": "",
-				"ko": "",
-				"pl": "",
-				"pt-BR": "",
-				"ru": "",
-				"zh-hans": "",
-				"zh-hant": ""
-			}
-		},
-		{
 			"folder": "___HUD",
 			"nexus_file_pattern": "___HUD-459",
 			"name": {
@@ -18003,6 +17953,56 @@
 				"pl": "Dodaje separator do lewej listy. Ten mod nie ma wpływu na grę.",
 				"pt-BR": "Adiciona um separador à lista esquerda. Este mod não tem efeito no jogo.",
 				"ru": "Mod List Dividers - HUD - Добавляет разделитель в левый список. Этот мод не влияет на игру.",
+				"zh-hans": "在左侧列表中添加一个分隔符。此模组对游戏没有影响。",
+				"zh-hant": "在左側列表中添加一個分隔符。此模組對遊戲沒有影響。"
+			},
+			"author": "hgcl2",
+			"category": "Menu",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/459",
+			"github_url": "",
+			"note": {
+				"de": "",
+				"en": "",
+				"es": "",
+				"fr": "",
+				"it": "",
+				"ja": "",
+				"ko": "",
+				"pl": "",
+				"pt-BR": "",
+				"ru": "",
+				"zh-hans": "",
+				"zh-hant": ""
+			}
+		},
+		{
+			"folder": "___Game Tools",
+			"nexus_file_pattern": "___Game Tools-459",
+			"name": {
+				"de": "Mod-Listen-Trennzeichen - Game Tools",
+				"en": "Mod List Dividers - Game Tools",
+				"es": "Separadores de lista de mods - Game Tools",
+				"fr": "Séparateurs de liste de mods - Game Tools",
+				"it": "Separatori della lista mod - Game Tools",
+				"ja": "MODリスト区切り - Game Tools",
+				"ko": "모드 목록 구분선 - Game Tools",
+				"pl": "Separatory listy modów - Game Tools",
+				"pt-BR": "Separadores de lista de mods - Game Tools",
+				"ru": "Разделители списка модов - Game Tools",
+				"zh-hans": "模组列表分隔符 - Game Tools",
+				"zh-hant": "模組列表分隔符 - Game Tools"
+			},
+			"description": {
+				"de": "Fügt einen Trenner zur linken Liste hinzu. Diese Mod hat keinen Einfluss auf das Spiel.",
+				"en": "This mod adds a divider to the left list. This mod has no effect on the game.",
+				"es": "Añade un separador a la lista izquierda. Este mod no tiene efecto en el juego.",
+				"fr": "Ajoute un séparateur à la liste de gauche. Ce mod n'a aucun effet sur le jeu.",
+				"it": "Aggiunge un separatore all'elenco di sinistra. Questa mod non ha alcun effetto sul gioco.",
+				"ja": "左側のリストに区切りを追加します。このMODはゲームに影響を与えません。",
+				"ko": "왼쪽 목록에 구분선을 추가합니다. 이 모드는 게임에 영향을 미치지 않습니다.",
+				"pl": "Dodaje separator do lewej listy. Ten mod nie ma wpływu na grę.",
+				"pt-BR": "Adiciona um separador à lista esquerda. Este mod não tem efeito no jogo.",
+				"ru": "Mod List Dividers - Game Tools - Добавляет разделитель в левый список. Этот мод не влияет на игру.",
 				"zh-hans": "在左侧列表中添加一个分隔符。此模组对游戏没有影响。",
 				"zh-hant": "在左側列表中添加一個分隔符。此模組對遊戲沒有影響。"
 			},
@@ -18076,56 +18076,6 @@
 			}
 		},
 		{
-			"folder": "___System",
-			"nexus_file_pattern": "___System-459",
-			"name": {
-				"de": "Mod-Listen-Trennzeichen - System",
-				"en": "Mod List Dividers - System",
-				"es": "Separadores de lista de mods - System",
-				"fr": "Séparateurs de liste de mods - System",
-				"it": "Separatori della lista mod - System",
-				"ja": "MODリスト区切り - System",
-				"ko": "모드 목록 구분선 - System",
-				"pl": "Separatory listy modów - System",
-				"pt-BR": "Separadores de lista de mods - System",
-				"ru": "Разделители списка модов - System",
-				"zh-hans": "模组列表分隔符 - System",
-				"zh-hant": "模組列表分隔符 - System"
-			},
-			"description": {
-				"de": "Fügt einen Trenner zur linken Liste hinzu. Diese Mod hat keinen Einfluss auf das Spiel.",
-				"en": "This mod adds a divider to the left list. This mod has no effect on the game.",
-				"es": "Añade un separador a la lista izquierda. Este mod no tiene efecto en el juego.",
-				"fr": "Ajoute un séparateur à la liste de gauche. Ce mod n'a aucun effet sur le jeu.",
-				"it": "Aggiunge un separatore all'elenco di sinistra. Questa mod non ha alcun effetto sul gioco.",
-				"ja": "左側のリストに区切りを追加します。このMODはゲームに影響を与えません。",
-				"ko": "왼쪽 목록에 구분선을 추가합니다. 이 모드는 게임에 영향을 미치지 않습니다.",
-				"pl": "Dodaje separator do lewej listy. Ten mod nie ma wpływu na grę.",
-				"pt-BR": "Adiciona um separador à lista esquerda. Este mod não tem efeito no jogo.",
-				"ru": "Mod List Dividers - System - Добавляет разделитель в левый список. Этот мод не влияет на игру.",
-				"zh-hans": "在左侧列表中添加一个分隔符。此模组对游戏没有影响。",
-				"zh-hant": "在左側列表中添加一個分隔符。此模組對遊戲沒有影響。"
-			},
-			"author": "hgcl2",
-			"category": "Menu",
-			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/459",
-			"github_url": "",
-			"note": {
-				"de": "",
-				"en": "",
-				"es": "",
-				"fr": "",
-				"it": "",
-				"ja": "",
-				"ko": "",
-				"pl": "",
-				"pt-BR": "",
-				"ru": "",
-				"zh-hans": "",
-				"zh-hant": ""
-			}
-		},
-		{
 			"folder": "___GamePlay Utilities",
 			"nexus_file_pattern": "___GamePlay Utilities-459",
 			"name": {
@@ -18153,6 +18103,56 @@
 				"pl": "Dodaje separator do lewej listy. Ten mod nie ma wpływu na grę.",
 				"pt-BR": "Adiciona um separador à lista esquerda. Este mod não tem efeito no jogo.",
 				"ru": "Mod List Dividers - GamePlay Utilities - Добавляет разделитель в левый список. Этот мод не влияет на игру.",
+				"zh-hans": "在左侧列表中添加一个分隔符。此模组对游戏没有影响。",
+				"zh-hant": "在左側列表中添加一個分隔符。此模組對遊戲沒有影響。"
+			},
+			"author": "hgcl2",
+			"category": "Menu",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/459",
+			"github_url": "",
+			"note": {
+				"de": "",
+				"en": "",
+				"es": "",
+				"fr": "",
+				"it": "",
+				"ja": "",
+				"ko": "",
+				"pl": "",
+				"pt-BR": "",
+				"ru": "",
+				"zh-hans": "",
+				"zh-hant": ""
+			}
+		},
+		{
+			"folder": "___Scoreboard",
+			"nexus_file_pattern": "___Scoreboard-459",
+			"name": {
+				"de": "Mod-Listen-Trennzeichen - Scoreboard",
+				"en": "Mod List Dividers - Scoreboard",
+				"es": "Separadores de lista de mods - Scoreboard",
+				"fr": "Séparateurs de liste de mods - Scoreboard",
+				"it": "Separatori della lista mod - Scoreboard",
+				"ja": "MODリスト区切り - Scoreboard",
+				"ko": "모드 목록 구분선 - Scoreboard",
+				"pl": "Separatory listy modów - Scoreboard",
+				"pt-BR": "Separadores de lista de mods - Scoreboard",
+				"ru": "Разделители списка модов - Scoreboard",
+				"zh-hans": "模组列表分隔符 - Scoreboard",
+				"zh-hant": "模組列表分隔符 - Scoreboard"
+			},
+			"description": {
+				"de": "Fügt einen Trenner zur linken Liste hinzu. Diese Mod hat keinen Einfluss auf das Spiel.",
+				"en": "This mod adds a divider to the left list. This mod has no effect on the game.",
+				"es": "Añade un separador a la lista izquierda. Este mod no tiene efecto en el juego.",
+				"fr": "Ajoute un séparateur à la liste de gauche. Ce mod n'a aucun effet sur le jeu.",
+				"it": "Aggiunge un separatore all'elenco di sinistra. Questa mod non ha alcun effetto sul gioco.",
+				"ja": "左側のリストに区切りを追加します。このMODはゲームに影響を与えません。",
+				"ko": "왼쪽 목록에 구분선을 추가합니다. 이 모드는 게임에 영향을 미치지 않습니다.",
+				"pl": "Dodaje separator do lewej listy. Ten mod nie ma wpływu na grę.",
+				"pt-BR": "Adiciona um separador à lista esquerda. Este mod não tem efeito no jogo.",
+				"ru": "Mod List Dividers - Scoreboard - Добавляет разделитель в левый список. Этот мод не влияет на игру.",
 				"zh-hans": "在左侧列表中添加一个分隔符。此模组对游戏没有影响。",
 				"zh-hant": "在左側列表中添加一個分隔符。此模組對遊戲沒有影響。"
 			},
@@ -18226,21 +18226,21 @@
 			}
 		},
 		{
-			"folder": "___Game Tools",
-			"nexus_file_pattern": "___Game Tools-459",
+			"folder": "___System",
+			"nexus_file_pattern": "___System-459",
 			"name": {
-				"de": "Mod-Listen-Trennzeichen - Game Tools",
-				"en": "Mod List Dividers - Game Tools",
-				"es": "Separadores de lista de mods - Game Tools",
-				"fr": "Séparateurs de liste de mods - Game Tools",
-				"it": "Separatori della lista mod - Game Tools",
-				"ja": "MODリスト区切り - Game Tools",
-				"ko": "모드 목록 구분선 - Game Tools",
-				"pl": "Separatory listy modów - Game Tools",
-				"pt-BR": "Separadores de lista de mods - Game Tools",
-				"ru": "Разделители списка модов - Game Tools",
-				"zh-hans": "模组列表分隔符 - Game Tools",
-				"zh-hant": "模組列表分隔符 - Game Tools"
+				"de": "Mod-Listen-Trennzeichen - System",
+				"en": "Mod List Dividers - System",
+				"es": "Separadores de lista de mods - System",
+				"fr": "Séparateurs de liste de mods - System",
+				"it": "Separatori della lista mod - System",
+				"ja": "MODリスト区切り - System",
+				"ko": "모드 목록 구분선 - System",
+				"pl": "Separatory listy modów - System",
+				"pt-BR": "Separadores de lista de mods - System",
+				"ru": "Разделители списка модов - System",
+				"zh-hans": "模组列表分隔符 - System",
+				"zh-hant": "模組列表分隔符 - System"
 			},
 			"description": {
 				"de": "Fügt einen Trenner zur linken Liste hinzu. Diese Mod hat keinen Einfluss auf das Spiel.",
@@ -18252,7 +18252,7 @@
 				"ko": "왼쪽 목록에 구분선을 추가합니다. 이 모드는 게임에 영향을 미치지 않습니다.",
 				"pl": "Dodaje separator do lewej listy. Ten mod nie ma wpływu na grę.",
 				"pt-BR": "Adiciona um separador à lista esquerda. Este mod não tem efeito no jogo.",
-				"ru": "Mod List Dividers - Game Tools - Добавляет разделитель в левый список. Этот мод не влияет на игру.",
+				"ru": "Mod List Dividers - System - Добавляет разделитель в левый список. Этот мод не влияет на игру.",
 				"zh-hans": "在左侧列表中添加一个分隔符。此模组对游戏没有影响。",
 				"zh-hant": "在左側列表中添加一個分隔符。此模組對遊戲沒有影響。"
 			},
@@ -18357,7 +18357,7 @@
 				"zh-hant": "添加瞄準時隱藏武器的瞄準鏡選項。"
 			},
 			"author": "Backup158",
-			"category": "Visuals",
+			"category": "Cosmetics",
 			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/461",
 			"github_url": "https://github.com/Backup158/DarktideWeaponCustomizationNoGun",
 			"note": {
@@ -20026,56 +20026,6 @@
 			}
 		},
 		{
-			"folder": "servo_friend_audio_server_plugin",
-			"nexus_file_pattern": "servo friend ai generated voice plugin-504",
-			"name": {
-				"de": "Servo-Freund Audio-Plugin",
-				"en": "Servo Friend Audio Plugin",
-				"es": "Complemento de audio Amigo servo",
-				"fr": "Plugin audio Ami servo",
-				"it": "Plugin audio Amico servo",
-				"ja": "サーボフレンド オーディオプラグイン",
-				"ko": "서보 친구 오디오 플러그인",
-				"pl": "Wtyczka audio Przyjaciel servo",
-				"pt-BR": "Plugin de áudio Amigo servo",
-				"ru": "Серво-друг — аудиоплагин",
-				"zh-hans": "伺服朋友音频插件",
-				"zh-hant": "伺服朋友音訊插件"
-			},
-			"description": {
-				"de": "Ein Servoschädel, ein Werkzeug, ein Freund.",
-				"en": "A servo skull, a tool, a friend.",
-				"es": "Un cráneo servo, una herramienta, un amigo.",
-				"fr": "Un crâne servo, un outil, un ami.",
-				"it": "Un teschio servo, uno strumento, un amico.",
-				"ja": "サーボスカル、ツール、友達。",
-				"ko": "서보 해골, 도구, 친구.",
-				"pl": "Servo-czaszka, narzędzie, przyjaciel.",
-				"pt-BR": "Um crânio servo, uma ferramenta, um amigo.",
-				"ru": "Servo Friend Audio Plugin - сервочереп, инструмент, друг.",
-				"zh-hans": "一个伺服颅骨，一个工具，一个朋友。",
-				"zh-hant": "一個伺服顱骨，一個工具，一個朋友。"
-			},
-			"author": "grasmann",
-			"category": "Audio",
-			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/504",
-			"github_url": "https://github.com/grasmann/darktide-mods/tree/main/servo_friend_audio_server_plugin",
-			"note": {
-				"de": "Erforderlich: Servo Friend oder Audio Plugin.",
-				"en": "Required: Servo Friend or Audio Plugin.",
-				"es": "Requerido: Servo Friend o Audio Plugin.",
-				"fr": "Requis : Servo Friend ou Audio Plugin.",
-				"it": "Richiede: Servo Friend oppure Audio Plugin.",
-				"ja": "必要条件: Servo Friend または Audio Plugin。",
-				"ko": "필요: Servo Friend 또는 Audio Plugin.",
-				"pl": "Wymagane: Servo Friend lub Audio Plugin.",
-				"pt-BR": "Requerido: Servo Friend ou Audio Plugin.",
-				"ru": "Требуется: Servo Friend или Audio Plugin.",
-				"zh-hans": "需要：Servo Friend 或 Audio Plugin。",
-				"zh-hant": "需要：Servo Friend 或 Audio Plugin。"
-			}
-		},
-		{
 			"folder": "servo_friend_plugin_hat_cables",
 			"nexus_file_pattern": "servo friend example hat addon-504",
 			"name": {
@@ -20123,6 +20073,56 @@
 				"ru": "Требуется: Servo Friend.",
 				"zh-hans": "需要：Servo Friend。",
 				"zh-hant": "需要：Servo Friend。"
+			}
+		},
+		{
+			"folder": "servo_friend_audio_server_plugin",
+			"nexus_file_pattern": "servo friend ai generated voice plugin-504",
+			"name": {
+				"de": "Servo-Freund Audio-Plugin",
+				"en": "Servo Friend Audio Plugin",
+				"es": "Complemento de audio Amigo servo",
+				"fr": "Plugin audio Ami servo",
+				"it": "Plugin audio Amico servo",
+				"ja": "サーボフレンド オーディオプラグイン",
+				"ko": "서보 친구 오디오 플러그인",
+				"pl": "Wtyczka audio Przyjaciel servo",
+				"pt-BR": "Plugin de áudio Amigo servo",
+				"ru": "Серво-друг — аудиоплагин",
+				"zh-hans": "伺服朋友音频插件",
+				"zh-hant": "伺服朋友音訊插件"
+			},
+			"description": {
+				"de": "Ein Servoschädel, ein Werkzeug, ein Freund.",
+				"en": "A servo skull, a tool, a friend.",
+				"es": "Un cráneo servo, una herramienta, un amigo.",
+				"fr": "Un crâne servo, un outil, un ami.",
+				"it": "Un teschio servo, uno strumento, un amico.",
+				"ja": "サーボスカル、ツール、友達。",
+				"ko": "서보 해골, 도구, 친구.",
+				"pl": "Servo-czaszka, narzędzie, przyjaciel.",
+				"pt-BR": "Um crânio servo, uma ferramenta, um amigo.",
+				"ru": "Servo Friend Audio Plugin - сервочереп, инструмент, друг.",
+				"zh-hans": "一个伺服颅骨，一个工具，一个朋友。",
+				"zh-hant": "一個伺服顱骨，一個工具，一個朋友。"
+			},
+			"author": "grasmann",
+			"category": "Audio",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/504",
+			"github_url": "https://github.com/grasmann/darktide-mods/tree/main/servo_friend_audio_server_plugin",
+			"note": {
+				"de": "Erforderlich: Servo Friend oder Audio Plugin.",
+				"en": "Required: Servo Friend or Audio Plugin.",
+				"es": "Requerido: Servo Friend o Audio Plugin.",
+				"fr": "Requis : Servo Friend ou Audio Plugin.",
+				"it": "Richiede: Servo Friend oppure Audio Plugin.",
+				"ja": "必要条件: Servo Friend または Audio Plugin。",
+				"ko": "필요: Servo Friend 또는 Audio Plugin.",
+				"pl": "Wymagane: Servo Friend lub Audio Plugin.",
+				"pt-BR": "Requerido: Servo Friend ou Audio Plugin.",
+				"ru": "Требуется: Servo Friend или Audio Plugin.",
+				"zh-hans": "需要：Servo Friend 或 Audio Plugin。",
+				"zh-hant": "需要：Servo Friend 或 Audio Plugin。"
 			}
 		},
 		{
@@ -21376,56 +21376,6 @@
 			}
 		},
 		{
-			"folder": "BetterDogTargets",
-			"nexus_file_pattern": "betterdog",
-			"name": {
-				"de": "Bessere Hundeziele",
-				"en": "Better Dog Targets",
-				"es": "Mejores objetivos para perro",
-				"fr": "Meilleures cibles pour chien",
-				"it": "Migliori bersagli per il cane",
-				"ja": "より良い犬のターゲット",
-				"ko": "더 나은 개 대상",
-				"pl": "Lepsze cele dla psa",
-				"pt-BR": "Melhores alvos para cão",
-				"ru": "Улучшенные цели для собаки",
-				"zh-hans": "更好的犬只目标",
-				"zh-hant": "更好的犬隻目標"
-			},
-			"description": {
-				"de": "VERALTET!",
-				"en": "OBSOLETE!",
-				"es": "¡OBSOLETO!",
-				"fr": "OBSOLÈTE !",
-				"it": "OBSOLETO!",
-				"ja": "廃止！",
-				"ko": "구식!",
-				"pl": "PRZESTARZAŁY!",
-				"pt-BR": "OBSOLETO!",
-				"ru": "УСТАРЕЛ!",
-				"zh-hans": "已过时！",
-				"zh-hant": "已過時！"
-			},
-			"author": "Pfhoenix",
-			"category": "Visuals",
-			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/542",
-			"github_url": "https://github.com/Pfhoenix/BetterDogTargets",
-			"note": {
-				"de": "",
-				"en": "",
-				"es": "",
-				"fr": "",
-				"it": "",
-				"ja": "",
-				"ko": "",
-				"pl": "",
-				"pt-BR": "",
-				"ru": "",
-				"zh-hans": "",
-				"zh-hant": ""
-			}
-		},
-		{
 			"folder": "BetterPetTargets",
 			"nexus_file_pattern": "betterpet",
 			"name": {
@@ -21455,6 +21405,56 @@
 				"ru": "Better Pet Targets - Перекрашивает контуры меток целей питомца в цвет игрока, установившего метку. Теперь вы сможете определить, чья собака (или серво-череп) нацелена на какого врага.",
 				"zh-hans": "将宠物目标标记的轮廓重新着色为发出标记的玩家的颜色。现在你将能够分辨谁的狗（或伺服头骨）被设置到哪些目标上。",
 				"zh-hant": "將寵物目標標記的輪廓重新著色為發出標記的玩家的顏色。現在你將能夠分辨誰的狗（或伺服頭骨）被設置到哪些目標上。"
+			},
+			"author": "Pfhoenix",
+			"category": "Visuals",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/542",
+			"github_url": "https://github.com/Pfhoenix/BetterDogTargets",
+			"note": {
+				"de": "",
+				"en": "",
+				"es": "",
+				"fr": "",
+				"it": "",
+				"ja": "",
+				"ko": "",
+				"pl": "",
+				"pt-BR": "",
+				"ru": "",
+				"zh-hans": "",
+				"zh-hant": ""
+			}
+		},
+		{
+			"folder": "BetterDogTargets",
+			"nexus_file_pattern": "betterdog",
+			"name": {
+				"de": "Bessere Hundeziele",
+				"en": "Better Dog Targets",
+				"es": "Mejores objetivos para perro",
+				"fr": "Meilleures cibles pour chien",
+				"it": "Migliori bersagli per il cane",
+				"ja": "より良い犬のターゲット",
+				"ko": "더 나은 개 대상",
+				"pl": "Lepsze cele dla psa",
+				"pt-BR": "Melhores alvos para cão",
+				"ru": "Улучшенные цели для собаки",
+				"zh-hans": "更好的犬只目标",
+				"zh-hant": "更好的犬隻目標"
+			},
+			"description": {
+				"de": "VERALTET!",
+				"en": "OBSOLETE!",
+				"es": "¡OBSOLETO!",
+				"fr": "OBSOLÈTE !",
+				"it": "OBSOLETO!",
+				"ja": "廃止！",
+				"ko": "구식!",
+				"pl": "PRZESTARZAŁY!",
+				"pt-BR": "OBSOLETO!",
+				"ru": "УСТАРЕЛ!",
+				"zh-hans": "已过时！",
+				"zh-hant": "已過時！"
 			},
 			"author": "Pfhoenix",
 			"category": "Visuals",
@@ -21576,56 +21576,6 @@
 			}
 		},
 		{
-			"folder": "LessAnnoyingDogFootsteps",
-			"nexus_file_pattern": "lessannoyingdogfootsteps",
-			"name": {
-				"de": "Weniger nervige Arbites",
-				"en": "Less Annoying Arbites",
-				"es": "Árbitros menos molestos",
-				"fr": "Arbites moins agaçants",
-				"it": "Arbitri meno fastidiosi",
-				"ja": "邪魔にならないアービターズ",
-				"ko": "덜 짜증나는 아비트레스",
-				"pl": "Mniej irytujący Arbitrzy",
-				"pt-BR": "Árbitros menos irritantes",
-				"ru": "Менее раздражающие арбитры",
-				"zh-hans": "减少恼人仲裁者",
-				"zh-hant": "減少惱人仲裁者"
-			},
-			"description": {
-				"de": "LessAnnoyingArbites-Mod, neue Funktionen, besserer Angriff, Anpassungen und einzelne Tastenbelegung, Nuncio-Anpassungen, VFX-Anpassungen, Minen-Anpassungen.",
-				"en": "LessAnnoyingArbites mod, new features, better attack, tweaks and single keybind, Nuncio tweaks, VFX tweaks, Mine tweaks.",
-				"es": "Mod LessAnnoyingArbites, nuevas características, mejor ataque, ajustes y una sola tecla, ajustes de Nuncio, ajustes de VFX, ajustes de minas.",
-				"fr": "Mod LessAnnoyingArbites, nouvelles fonctionnalités, meilleure attaque, ajustements et un seul raccourci clavier, ajustements de Nuncio, ajustements VFX, ajustements de mines.",
-				"it": "Mod LessAnnoyingArbites, nuove funzionalità, attacco migliore, modifiche e un singolo tasto, modifiche a Nuncio, modifiche VFX, modifiche alle mine.",
-				"ja": "LessAnnoyingArbites MOD、新機能、攻撃改善、調整、単一キーバインド、Nuncio調整、VFX調整、地雷調整。",
-				"ko": "LessAnnoyingArbites 모드, 새로운 기능, 더 나은 공격, 조정 및 단일 키 바인딩, Nuncio 조정, VFX 조정, 지뢰 조정.",
-				"pl": "Mod LessAnnoyingArbites, nowe funkcje, lepszy atak, poprawki i pojedynczy klawisz, poprawki Nuncio, poprawki VFX, poprawki min.",
-				"pt-BR": "Mod LessAnnoyingArbites, novos recursos, melhor ataque, ajustes e uma única tecla, ajustes do Nuncio, ajustes de VFX, ajustes de minas.",
-				"ru": "Less Annoying Arbites - Мод с новыми функциями, улучшенной атакой, настройками и одной привязкой клавиш, настройками Нунцио, визуальных эффектов и мин.",
-				"zh-hans": "LessAnnoyingArbites 模组，新功能、更好的攻击、调整和单一快捷键、Nuncio 调整、VFX 调整、地雷调整。",
-				"zh-hant": "LessAnnoyingArbites 模組，新功能、更好的攻擊、調整和單一快捷鍵、Nuncio 調整、VFX 調整、地雷調整。"
-			},
-			"author": "gpk",
-			"category": "Audio",
-			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/545",
-			"github_url": "",
-			"note": {
-				"de": "",
-				"en": "",
-				"es": "",
-				"fr": "",
-				"it": "",
-				"ja": "",
-				"ko": "",
-				"pl": "",
-				"pt-BR": "",
-				"ru": "",
-				"zh-hans": "",
-				"zh-hant": ""
-			}
-		},
-		{
 			"folder": "LessAnnoyingArbites",
 			"nexus_file_pattern": "lessannoyingarbites",
 			"name": {
@@ -21658,6 +21608,56 @@
 			},
 			"author": "gpk",
 			"category": "QoL",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/545",
+			"github_url": "",
+			"note": {
+				"de": "",
+				"en": "",
+				"es": "",
+				"fr": "",
+				"it": "",
+				"ja": "",
+				"ko": "",
+				"pl": "",
+				"pt-BR": "",
+				"ru": "",
+				"zh-hans": "",
+				"zh-hant": ""
+			}
+		},
+		{
+			"folder": "LessAnnoyingDogFootsteps",
+			"nexus_file_pattern": "lessannoyingdogfootsteps",
+			"name": {
+				"de": "Weniger nervige Arbites",
+				"en": "Less Annoying Arbites",
+				"es": "Árbitros menos molestos",
+				"fr": "Arbites moins agaçants",
+				"it": "Arbitri meno fastidiosi",
+				"ja": "邪魔にならないアービターズ",
+				"ko": "덜 짜증나는 아비트레스",
+				"pl": "Mniej irytujący Arbitrzy",
+				"pt-BR": "Árbitros menos irritantes",
+				"ru": "Менее раздражающие арбитры",
+				"zh-hans": "减少恼人仲裁者",
+				"zh-hant": "減少惱人仲裁者"
+			},
+			"description": {
+				"de": "LessAnnoyingArbites-Mod, neue Funktionen, besserer Angriff, Anpassungen und einzelne Tastenbelegung, Nuncio-Anpassungen, VFX-Anpassungen, Minen-Anpassungen.",
+				"en": "LessAnnoyingArbites mod, new features, better attack, tweaks and single keybind, Nuncio tweaks, VFX tweaks, Mine tweaks.",
+				"es": "Mod LessAnnoyingArbites, nuevas características, mejor ataque, ajustes y una sola tecla, ajustes de Nuncio, ajustes de VFX, ajustes de minas.",
+				"fr": "Mod LessAnnoyingArbites, nouvelles fonctionnalités, meilleure attaque, ajustements et un seul raccourci clavier, ajustements de Nuncio, ajustements VFX, ajustements de mines.",
+				"it": "Mod LessAnnoyingArbites, nuove funzionalità, attacco migliore, modifiche e un singolo tasto, modifiche a Nuncio, modifiche VFX, modifiche alle mine.",
+				"ja": "LessAnnoyingArbites MOD、新機能、攻撃改善、調整、単一キーバインド、Nuncio調整、VFX調整、地雷調整。",
+				"ko": "LessAnnoyingArbites 모드, 새로운 기능, 더 나은 공격, 조정 및 단일 키 바인딩, Nuncio 조정, VFX 조정, 지뢰 조정.",
+				"pl": "Mod LessAnnoyingArbites, nowe funkcje, lepszy atak, poprawki i pojedynczy klawisz, poprawki Nuncio, poprawki VFX, poprawki min.",
+				"pt-BR": "Mod LessAnnoyingArbites, novos recursos, melhor ataque, ajustes e uma única tecla, ajustes do Nuncio, ajustes de VFX, ajustes de minas.",
+				"ru": "Less Annoying Arbites - Мод с новыми функциями, улучшенной атакой, настройками и одной привязкой клавиш, настройками Нунцио, визуальных эффектов и мин.",
+				"zh-hans": "LessAnnoyingArbites 模组，新功能、更好的攻击、调整和单一快捷键、Nuncio 调整、VFX 调整、地雷调整。",
+				"zh-hant": "LessAnnoyingArbites 模組，新功能、更好的攻擊、調整和單一快捷鍵、Nuncio 調整、VFX 調整、地雷調整。"
+			},
+			"author": "gpk",
+			"category": "Audio",
 			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/545",
 			"github_url": "",
 			"note": {
@@ -25826,18 +25826,18 @@
 			}
 		},
 		{
-			"folder": "DarktideLocalServer_MINIAUDIO",
-			"nexus_file_pattern": "darktide",
+			"folder": "MiniAudioAddon",
+			"nexus_file_pattern": "mini",
 			"name": {
 				"de": "Mini Audio Addon",
 				"en": "Mini Audio Addon",
-				"es": "Mini Audio Addon",
+				"es": "Complemento de audio mini",
 				"fr": "Mini Audio Addon",
 				"it": "Mini Audio Addon",
 				"ja": "ミニオーディオアドオン",
 				"ko": "미니 오디오 애드온",
 				"pl": "Mini Audio Addon",
-				"pt-BR": "Mini Audio Addon",
+				"pt-BR": "Complemento de áudio mini",
 				"ru": "Аддон Мини-аудио",
 				"zh-hans": "迷你音频插件",
 				"zh-hant": "迷你音訊插件"
@@ -25876,18 +25876,18 @@
 			}
 		},
 		{
-			"folder": "MiniAudioAddon",
-			"nexus_file_pattern": "mini",
+			"folder": "DarktideLocalServer_MINIAUDIO",
+			"nexus_file_pattern": "darktide",
 			"name": {
 				"de": "Mini Audio Addon",
 				"en": "Mini Audio Addon",
-				"es": "Complemento de audio mini",
+				"es": "Mini Audio Addon",
 				"fr": "Mini Audio Addon",
 				"it": "Mini Audio Addon",
 				"ja": "ミニオーディオアドオン",
 				"ko": "미니 오디오 애드온",
 				"pl": "Mini Audio Addon",
-				"pt-BR": "Complemento de áudio mini",
+				"pt-BR": "Mini Audio Addon",
 				"ru": "Аддон Мини-аудио",
 				"zh-hans": "迷你音频插件",
 				"zh-hant": "迷你音訊插件"
@@ -32176,56 +32176,6 @@
 			}
 		},
 		{
-			"folder": "valkyrie_dog",
-			"nexus_file_pattern": "valkyrie",
-			"name": {
-				"de": "Keine Haustiere zurücklassen",
-				"en": "No Pets Left Behind",
-				"es": "No dejar mascotas atrás",
-				"fr": "Pas de compagnons abandonnés",
-				"it": "Nessun animale lasciato indietro",
-				"ja": "ペットを置き去りにしない",
-				"ko": "반려동물을 남겨두지 마세요",
-				"pl": "Nie zostawiaj zwierzaków",
-				"pt-BR": "Não deixe animais para trás",
-				"ru": "Не оставлять питомцев позади",
-				"zh-hans": "不遗弃宠物",
-				"zh-hant": "不遺棄寵物"
-			},
-			"description": {
-				"de": "VERALTET!",
-				"en": "OBSOLETE!",
-				"es": "¡OBSOLETO!",
-				"fr": "OBSOLÈTE !",
-				"it": "OBSOLETO!",
-				"ja": "廃止！",
-				"ko": "구식!",
-				"pl": "PRZESTARZAŁY!",
-				"pt-BR": "OBSOLETO!",
-				"ru": "УСТАРЕЛ!",
-				"zh-hans": "已过时！",
-				"zh-hant": "已過時！"
-			},
-			"author": "leer",
-			"category": "Visuals",
-			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/828",
-			"github_url": "",
-			"note": {
-				"de": "No Pets Left Behind ist die Nachfolger-Mod.",
-				"en": "No Pets Left Behind is a successor mod.",
-				"es": "No Pets Left Behind es el mod sucesor.",
-				"fr": "No Pets Left Behind est le mod successeur.",
-				"it": "No Pets Left Behind è il mod successore.",
-				"ja": "No Pets Left Behind が後継MODです。",
-				"ko": "No Pets Left Behind가 후속 모드입니다.",
-				"pl": "No Pets Left Behind jest modem następczym.",
-				"pt-BR": "No Pets Left Behind é o mod sucessor.",
-				"ru": "No Pets Left Behind - мод-наследник.",
-				"zh-hans": "No Pets Left Behind 是其继承模组。",
-				"zh-hant": "No Pets Left Behind 是其繼承模組。"
-			}
-		},
-		{
 			"folder": "NoPetsLeftBehind",
 			"nexus_file_pattern": "no",
 			"name": {
@@ -32273,6 +32223,56 @@
 				"ru": "",
 				"zh-hans": "",
 				"zh-hant": ""
+			}
+		},
+		{
+			"folder": "valkyrie_dog",
+			"nexus_file_pattern": "valkyrie",
+			"name": {
+				"de": "Keine Haustiere zurücklassen",
+				"en": "No Pets Left Behind",
+				"es": "No dejar mascotas atrás",
+				"fr": "Pas de compagnons abandonnés",
+				"it": "Nessun animale lasciato indietro",
+				"ja": "ペットを置き去りにしない",
+				"ko": "반려동물을 남겨두지 마세요",
+				"pl": "Nie zostawiaj zwierzaków",
+				"pt-BR": "Não deixe animais para trás",
+				"ru": "Не оставлять питомцев позади",
+				"zh-hans": "不遗弃宠物",
+				"zh-hant": "不遺棄寵物"
+			},
+			"description": {
+				"de": "VERALTET!",
+				"en": "OBSOLETE!",
+				"es": "¡OBSOLETO!",
+				"fr": "OBSOLÈTE !",
+				"it": "OBSOLETO!",
+				"ja": "廃止！",
+				"ko": "구식!",
+				"pl": "PRZESTARZAŁY!",
+				"pt-BR": "OBSOLETO!",
+				"ru": "УСТАРЕЛ!",
+				"zh-hans": "已过时！",
+				"zh-hant": "已過時！"
+			},
+			"author": "leer",
+			"category": "Visuals",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/828",
+			"github_url": "",
+			"note": {
+				"de": "No Pets Left Behind ist die Nachfolger-Mod.",
+				"en": "No Pets Left Behind is a successor mod.",
+				"es": "No Pets Left Behind es el mod sucesor.",
+				"fr": "No Pets Left Behind est le mod successeur.",
+				"it": "No Pets Left Behind è il mod successore.",
+				"ja": "No Pets Left Behind が後継MODです。",
+				"ko": "No Pets Left Behind가 후속 모드입니다.",
+				"pl": "No Pets Left Behind jest modem następczym.",
+				"pt-BR": "No Pets Left Behind é o mod sucessor.",
+				"ru": "No Pets Left Behind - мод-наследник.",
+				"zh-hans": "No Pets Left Behind 是其继承模组。",
+				"zh-hant": "No Pets Left Behind 是其繼承模組。"
 			}
 		},
 		{
@@ -36307,7 +36307,7 @@
 				"zh-hant": "在武器自定義中添加多種近戰刀刃，將法杖變成鐮刀。收割開始！"
 			},
 			"author": "xsSplater",
-			"category": "Visuals",
+			"category": "Cosmetics",
 			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/918",
 			"github_url": "https://github.com/xsSplater/Darktide-EWC-xsScythe",
 			"note": {
@@ -39576,56 +39576,6 @@
 			}
 		},
 		{
-			"folder": "ServoSkullHoundCommander",
-			"nexus_file_pattern": "servo",
-			"name": {
-				"de": "Servo-Schädel- und Hund-Kommandant",
-				"en": "Servo Skull and Hound Commander",
-				"es": "Comandante de cráneo servo y sabueso",
-				"fr": "Commandant de crâne servo et de chien",
-				"it": "Comandante di teschio servo e cane",
-				"ja": "サーボスカル＆ハウンドコマンダー",
-				"ko": "서보 스컬 및 사냥개 지휘관",
-				"pl": "Dowódca czaszki serwo i psa",
-				"pt-BR": "Comandante de crânio servo e cão",
-				"ru": "Командир сервочерепа и пса",
-				"zh-hans": "伺服头骨和猎犬指挥官",
-				"zh-hant": "伺服頭骨和獵犬指揮官"
-			},
-			"description": {
-				"de": "Mit diesem Mod kannst du deine Servo-Schädel vollständig anpassen und Energieverluste beheben, indem du Feinde im Psioniker-Schild oder dahinter mit noosphärischem Befehl anvisierst. Und jetzt auch den Hund.",
-				"en": "Mod allow u fully customize ur servo skulls, and fix enrgy losses by targeting enemies in psyker shield or behind it with noospheric command. And now dog",
-				"es": "El mod te permite personalizar completamente tus cráneos servo y arreglar pérdidas de energía al apuntar a enemigos en el escudo del psíquico o detrás de él con un comando noosférico. Y ahora también el perro.",
-				"fr": "Le mod vous permet de personnaliser entièrement vos crânes servo et de corriger les pertes d'énergie en ciblant les ennemis dans le bouclier du Psyker ou derrière avec une commande noosphérique. Et maintenant aussi le chien.",
-				"it": "La mod ti permette di personalizzare completamente i tuoi teschi servo e correggere le perdite di energia mirando ai nemici nello scudo dello Psichico o dietro di esso con il comando noosferico. E ora anche il cane.",
-				"ja": "MODでサーボスカルを完全にカスタマイズし、ノオスフェアコマンドでサイカーのシールド内または背後にいる敵をターゲットにしてエネルギー損失を修正できます。そして今、犬も。",
-				"ko": "이 모드를 통해 서보 스컬을 완전히 사용자 정의하고, 노오스피어 명령으로 사이커 방패 안이나 뒤에 있는 적을 표적으로 하여 에너지 손실을 수정할 수 있습니다. 그리고 이제 개도 가능합니다.",
-				"pl": "Mod pozwala w pełni dostosować czaszki serwo i naprawić straty energii poprzez celowanie w wrogów w tarczy Psychera lub za nią za pomocą polecenia noosferycznego. A teraz także pies.",
-				"pt-BR": "O mod permite personalizar completamente seus crânios servo e corrigir perdas de energia mirando inimigos no escudo do Psíquico ou atrás dele com comando noosférico. E agora também o cão.",
-				"ru": "Servo Skull and Hound Commander - Мод позволяет полностью настроить ваши сервочерепа и исправить потери энергии, наводя врагов в щите псайкера или за ним с помощью ноосферной команды. А теперь и собака.",
-				"zh-hans": "模组允许您完全自定义伺服头骨，并通过灵能命令瞄准灵能者护盾内或后面的敌人来修复能量损失。现在还支持猎犬。",
-				"zh-hant": "模組允許您完全自定義伺服頭骨，並通過靈能命令瞄準靈能者護盾內或後面的敵人来修復能量損失。現在還支持獵犬。"
-			},
-			"author": "Artem228337",
-			"category": "Tweaks",
-			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/1006",
-			"github_url": "",
-			"note": {
-				"de": "",
-				"en": "",
-				"es": "",
-				"fr": "",
-				"it": "",
-				"ja": "",
-				"ko": "",
-				"pl": "",
-				"pt-BR": "",
-				"ru": "",
-				"zh-hans": "",
-				"zh-hant": ""
-			}
-		},
-		{
 			"folder": "ServoSkullCommander",
 			"nexus_file_pattern": "s",
 			"name": {
@@ -39655,6 +39605,56 @@
 				"ru": "УСТАРЕЛ!",
 				"zh-hans": "已过时！",
 				"zh-hant": "已過時！"
+			},
+			"author": "Artem228337",
+			"category": "Tweaks",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/1006",
+			"github_url": "",
+			"note": {
+				"de": "",
+				"en": "",
+				"es": "",
+				"fr": "",
+				"it": "",
+				"ja": "",
+				"ko": "",
+				"pl": "",
+				"pt-BR": "",
+				"ru": "",
+				"zh-hans": "",
+				"zh-hant": ""
+			}
+		},
+		{
+			"folder": "ServoSkullHoundCommander",
+			"nexus_file_pattern": "servo",
+			"name": {
+				"de": "Servo-Schädel- und Hund-Kommandant",
+				"en": "Servo Skull and Hound Commander",
+				"es": "Comandante de cráneo servo y sabueso",
+				"fr": "Commandant de crâne servo et de chien",
+				"it": "Comandante di teschio servo e cane",
+				"ja": "サーボスカル＆ハウンドコマンダー",
+				"ko": "서보 스컬 및 사냥개 지휘관",
+				"pl": "Dowódca czaszki serwo i psa",
+				"pt-BR": "Comandante de crânio servo e cão",
+				"ru": "Командир сервочерепа и пса",
+				"zh-hans": "伺服头骨和猎犬指挥官",
+				"zh-hant": "伺服頭骨和獵犬指揮官"
+			},
+			"description": {
+				"de": "Mit diesem Mod kannst du deine Servo-Schädel vollständig anpassen und Energieverluste beheben, indem du Feinde im Psioniker-Schild oder dahinter mit noosphärischem Befehl anvisierst. Und jetzt auch den Hund.",
+				"en": "Mod allow u fully customize ur servo skulls, and fix enrgy losses by targeting enemies in psyker shield or behind it with noospheric command. And now dog",
+				"es": "El mod te permite personalizar completamente tus cráneos servo y arreglar pérdidas de energía al apuntar a enemigos en el escudo del psíquico o detrás de él con un comando noosférico. Y ahora también el perro.",
+				"fr": "Le mod vous permet de personnaliser entièrement vos crânes servo et de corriger les pertes d'énergie en ciblant les ennemis dans le bouclier du Psyker ou derrière avec une commande noosphérique. Et maintenant aussi le chien.",
+				"it": "La mod ti permette di personalizzare completamente i tuoi teschi servo e correggere le perdite di energia mirando ai nemici nello scudo dello Psichico o dietro di esso con il comando noosferico. E ora anche il cane.",
+				"ja": "MODでサーボスカルを完全にカスタマイズし、ノオスフェアコマンドでサイカーのシールド内または背後にいる敵をターゲットにしてエネルギー損失を修正できます。そして今、犬も。",
+				"ko": "이 모드를 통해 서보 스컬을 완전히 사용자 정의하고, 노오스피어 명령으로 사이커 방패 안이나 뒤에 있는 적을 표적으로 하여 에너지 손실을 수정할 수 있습니다. 그리고 이제 개도 가능합니다.",
+				"pl": "Mod pozwala w pełni dostosować czaszki serwo i naprawić straty energii poprzez celowanie w wrogów w tarczy Psychera lub za nią za pomocą polecenia noosferycznego. A teraz także pies.",
+				"pt-BR": "O mod permite personalizar completamente seus crânios servo e corrigir perdas de energia mirando inimigos no escudo do Psíquico ou atrás dele com comando noosférico. E agora também o cão.",
+				"ru": "Servo Skull and Hound Commander - Мод позволяет полностью настроить ваши сервочерепа и исправить потери энергии, наводя врагов в щите псайкера или за ним с помощью ноосферной команды. А теперь и собака.",
+				"zh-hans": "模组允许您完全自定义伺服头骨，并通过灵能命令瞄准灵能者护盾内或后面的敌人来修复能量损失。现在还支持猎犬。",
+				"zh-hant": "模組允許您完全自定義伺服頭骨，並通過靈能命令瞄準靈能者護盾內或後面的敵人来修復能量損失。現在還支持獵犬。"
 			},
 			"author": "Artem228337",
 			"category": "Tweaks",
@@ -40426,7 +40426,7 @@
 			}
 		},
 		{
-			"folder": "dynamic_settings_demo",
+			"folder": "dynamic_settings",
 			"nexus_file_pattern": "dynamic",
 			"name": {
 				"de": "Dynamische Mod-Einstellungen",
@@ -40476,7 +40476,7 @@
 			}
 		},
 		{
-			"folder": "dynamic_settings",
+			"folder": "dynamic_settings_demo",
 			"nexus_file_pattern": "dynamic",
 			"name": {
 				"de": "Dynamische Mod-Einstellungen",
@@ -41176,56 +41176,6 @@
 			}
 		},
 		{
-			"folder": "LoadoutOrganizer",
-			"nexus_file_pattern": "loadout",
-			"name": {
-				"de": "Ausrüstungsorganisator",
-				"en": "Loadout Organizer",
-				"es": "Organizador de equipamiento",
-				"fr": "Organisateur d'équipement",
-				"it": "Organizzatore equipaggiamento",
-				"ja": "ロードアウトオーガナイザー",
-				"ko": "장비 정리기",
-				"pl": "Organizator ekwipunku",
-				"pt-BR": "Organizador de equipamento",
-				"ru": "Организатор экипировки",
-				"zh-hans": "装备配置整理器",
-				"zh-hant": "裝備配置整理器"
-			},
-			"description": {
-				"de": "Fügt die Möglichkeit hinzu, gespeicherte Ausrüstungsvorlagen aus dem Charakterpanel neu anzuordnen, sowie eine Vorschau der ausgewählten Talentknoten anzuzeigen.",
-				"en": "Adds the ability to reorder saved loadouts from the character panel as well as displaying a preview of selected talent nodes.",
-				"es": "Añade la capacidad de reordenar los equipamientos guardados desde el panel de personaje y mostrar una vista previa de los nodos de talento seleccionados.",
-				"fr": "Ajoute la possibilité de réorganiser les équipements enregistrés depuis le panneau de personnage et d'afficher un aperçu des nœuds de talents sélectionnés.",
-				"it": "Aggiunge la possibilità di riordinare gli equipaggiamenti salvati dal pannello personaggio e visualizzare un'anteprima dei nodi talento selezionati.",
-				"ja": "キャラクターパネルから保存したロードアウトを並べ替え、選択したタレントノードのプレビューを表示する機能を追加します。",
-				"ko": "캐릭터 패널에서 저장된 장비를 재정렬하고 선택한 재능 노드의 미리보기를 표시하는 기능을 추가합니다.",
-				"pl": "Dodaje możliwość zmiany kolejności zapisanych ekwipunków z panelu postaci oraz wyświetlania podglądu wybranych węzłów talentów.",
-				"pt-BR": "Adiciona a capacidade de reordenar equipamentos salvos a partir do painel de personagem, além de exibir uma prévia dos nós de talento selecionados.",
-				"ru": "Loadout Organizer - Добавляет возможность переупорядочивать сохранённые наборы экипировки на панели персонажа, а также отображать предпросмотр выбранных узлов талантов.",
-				"zh-hans": "添加从角色面板重新排序已保存装备配置以及显示所选天赋节点预览的功能。",
-				"zh-hant": "添加從角色面板重新排序已保存裝備配置以及顯示所選天賦節點預覽的功能。"
-			},
-			"author": "Awkley",
-			"category": "QoL",
-			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/1038",
-			"github_url": "",
-			"note": {
-				"de": "",
-				"en": "",
-				"es": "",
-				"fr": "",
-				"it": "",
-				"ja": "",
-				"ko": "",
-				"pl": "",
-				"pt-BR": "",
-				"ru": "",
-				"zh-hans": "",
-				"zh-hant": ""
-			}
-		},
-		{
 			"folder": "LoadoutPreviews",
 			"nexus_file_pattern": "loadout",
 			"name": {
@@ -41258,6 +41208,56 @@
 			},
 			"author": "sadface",
 			"category": "HUD",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/1038",
+			"github_url": "",
+			"note": {
+				"de": "",
+				"en": "",
+				"es": "",
+				"fr": "",
+				"it": "",
+				"ja": "",
+				"ko": "",
+				"pl": "",
+				"pt-BR": "",
+				"ru": "",
+				"zh-hans": "",
+				"zh-hant": ""
+			}
+		},
+		{
+			"folder": "LoadoutOrganizer",
+			"nexus_file_pattern": "loadout",
+			"name": {
+				"de": "Ausrüstungsorganisator",
+				"en": "Loadout Organizer",
+				"es": "Organizador de equipamiento",
+				"fr": "Organisateur d'équipement",
+				"it": "Organizzatore equipaggiamento",
+				"ja": "ロードアウトオーガナイザー",
+				"ko": "장비 정리기",
+				"pl": "Organizator ekwipunku",
+				"pt-BR": "Organizador de equipamento",
+				"ru": "Организатор экипировки",
+				"zh-hans": "装备配置整理器",
+				"zh-hant": "裝備配置整理器"
+			},
+			"description": {
+				"de": "Fügt die Möglichkeit hinzu, gespeicherte Ausrüstungsvorlagen aus dem Charakterpanel neu anzuordnen, sowie eine Vorschau der ausgewählten Talentknoten anzuzeigen.",
+				"en": "Adds the ability to reorder saved loadouts from the character panel as well as displaying a preview of selected talent nodes.",
+				"es": "Añade la capacidad de reordenar los equipamientos guardados desde el panel de personaje y mostrar una vista previa de los nodos de talento seleccionados.",
+				"fr": "Ajoute la possibilité de réorganiser les équipements enregistrés depuis le panneau de personnage et d'afficher un aperçu des nœuds de talents sélectionnés.",
+				"it": "Aggiunge la possibilità di riordinare gli equipaggiamenti salvati dal pannello personaggio e visualizzare un'anteprima dei nodi talento selezionati.",
+				"ja": "キャラクターパネルから保存したロードアウトを並べ替え、選択したタレントノードのプレビューを表示する機能を追加します。",
+				"ko": "캐릭터 패널에서 저장된 장비를 재정렬하고 선택한 재능 노드의 미리보기를 표시하는 기능을 추가합니다.",
+				"pl": "Dodaje możliwość zmiany kolejności zapisanych ekwipunków z panelu postaci oraz wyświetlania podglądu wybranych węzłów talentów.",
+				"pt-BR": "Adiciona a capacidade de reordenar equipamentos salvos a partir do painel de personagem, além de exibir uma prévia dos nós de talento selecionados.",
+				"ru": "Loadout Organizer - Добавляет возможность переупорядочивать сохранённые наборы экипировки на панели персонажа, а также отображать предпросмотр выбранных узлов талантов.",
+				"zh-hans": "添加从角色面板重新排序已保存装备配置以及显示所选天赋节点预览的功能。",
+				"zh-hant": "添加從角色面板重新排序已保存裝備配置以及顯示所選天賦節點預覽的功能。"
+			},
+			"author": "Awkley",
+			"category": "QoL",
 			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/1038",
 			"github_url": "",
 			"note": {
@@ -49723,6 +49723,56 @@
 				"ru": "",
 				"zh-hans": "",
 				"zh-hant": ""
+			}
+		},
+		{
+			"folder": "extended_weapon_customization_omnissiah",
+			"nexus_file_pattern": "tools",
+			"name": {
+				"de": "Werkzeuge des Omnissiah - EWC Plugin",
+				"en": "Tools of the Omnissiah - EWC Plugin",
+				"es": "Herramientas del Omnissiah - EWC Plugin",
+				"fr": "Outils de l'Omnissiah - EWC Plugin",
+				"it": "Strumenti dell'Omnissiah - EWC Plugin",
+				"ja": "オムニシアの道具 - 拡張武器カスタマイズプラグイン",
+				"ko": "옴니시아의 도구 - 확장 무기 커스터마이즈 플러그인",
+				"pl": "Narzędzia Omnissiah - EWC Plugin",
+				"pt-BR": "Ferramentas do Omnissiah - EWC Plugin",
+				"ru": "Инструменты Омниссии - Плагин для РНО",
+				"zh-hans": "欧姆尼赛亚的工具 - 扩展武器自定义插件",
+				"zh-hant": "歐姆尼賽亞的工具 - 擴展武器自定義插件"
+			},
+			"description": {
+				"de": "Ein Plugin für die erweiterte Waffenanpassung, das verrückte neue Aufsätze hauptsächlich für Skitarii-Waffen hinzufügt, aber auch ein paar zusätzliche Leckerbissen verteilt.",
+				"en": "A plugin for Extended Weapon Customisation that adds funky new attachments primarily for Skitarii guns, but also with a few additional goodies spread around as a treat.",
+				"es": "Un complemento para la personalización de armas extendida que añade nuevos accesorios principalmente para armas Skitarii, pero también con algunas golosinas adicionales repartidas como un regalo.",
+				"fr": "Un plugin pour la personnalisation d'armes étendue qui ajoute de nouveaux accessoires principalement pour les armes Skitarii, mais aussi avec quelques petites surprises supplémentaires disséminées en prime.",
+				"it": "Un plugin per la personalizzazione estesa delle armi che aggiunge nuovi accessori principalmente per le armi degli Skitarii, ma anche con qualche chicca in più sparsa qua e là.",
+				"ja": "拡張武器カスタマイズのプラグインで、主にスキタリの銃に新しいアタッチメントを追加しますが、おまけとしてさらにいくつかの追加アイテムも含まれています。",
+				"ko": "확장 무기 커스터마이즈를 위한 플러그인으로, 주로 스키타리 총기에 새로운 부착물을 추가하고, 몇 가지 추가 혜택도 제공합니다.",
+				"pl": "Wtyczka do rozszerzonej personalizacji broni, która dodaje nowe modyfikacje głównie dla broni Skitarii, ale także kilka dodatkowych smakołyków rozrzuconych po drodze.",
+				"pt-BR": "Um plugin para a personalização estendida de armas que adiciona novos acessórios principalmente para armas Skitarii, mas também com algumas guloseimas adicionais espalhadas como um agrado.",
+				"ru": "Tools of the Omnissiah - Extended Weapon Customization Plugin - Плагин для расширенной настройки оружия, добавляющий новые причудливые насадки в основном для оружия Скитариев, а также несколько дополнительных плюшек в качестве бонуса.",
+				"zh-hans": "一个用于扩展武器自定义的插件，主要为Skitarii枪械添加新奇的附件，同时也散布了一些额外的小惊喜作为奖励。",
+				"zh-hant": "一個用於擴展武器自定義的插件，主要為Skitarii槍械添加新奇的附件，同時也散佈了一些額外的小驚喜作為獎勵。"
+			},
+			"author": "GeoffFromAccounting",
+			"category": "Cosmetics",
+			"url": "https://www.nexusmods.com/warhammer40kdarktide/mods/1238",
+			"github_url": "",
+			"note": {
+				"de": "Erforderlich: Extended Weapon Customization.",
+				"en": "Required: Extended Weapon Customization.",
+				"es": "Requerido: Extended Weapon Customization.",
+				"fr": "Requis : Extended Weapon Customization.",
+				"it": "Richiede: Extended Weapon Customization.",
+				"ja": "必要条件: Extended Weapon Customization.",
+				"ko": "필요: Extended Weapon Customization.",
+				"pl": "Wymagane: Extended Weapon Customization.",
+				"pt-BR": "Requerido: Extended Weapon Customization.",
+				"ru": "Требуется: Extended Weapon Customization.",
+				"zh-hans": "需要：Extended Weapon Customization。",
+				"zh-hant": "需要：Extended Weapon Customization。"
 			}
 		}
 	]

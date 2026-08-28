@@ -1,5 +1,5 @@
--- zServo_Lexmechanicus_data.lua
-local mod = get_mod("zServo_Lexmechanicus")
+-- Servo_Lexmechanicus_data.lua
+local mod = get_mod("Servo_Lexmechanicus")
 
 return {
 	name = mod:localize("mod_name"),

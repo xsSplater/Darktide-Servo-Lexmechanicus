@@ -1,5 +1,5 @@
--- zServo_Lexmechanicus_localization.lua
-local mod = get_mod("zServo_Lexmechanicus")
+-- Servo_Lexmechanicus_localization.lua
+local mod = get_mod("Servo_Lexmechanicus")
 
 local localizations = {
 	mod_name = {}, -- Mod name (will be filled dynamically at the end)
@@ -62,18 +62,18 @@ local localizations = {
  ["pt-br"] = "Aplicar selos de categorização",
 	},
 	show_category_prefix_description = {
-		en = "The servitor marks mod Сategories if they have been added to the database in the zServo_Lexmechanicus_categories file and then matched with the corresponding mod in the mod_database file.",
-		ru = "Сервитор помечает категории для модов, если они были добавлены в базу данных в файл zServo_Lexmechanicus_categories, а затем соотнесены с соответствующим модом в файле mod_database.",
- ["zh-cn"] = "如果模组类别已添加到zServo_Lexmechanicus_categories文件数据库中，并在mod_database文件中与相应模组匹配，伺服单元将标记这些类别。",
- ["zh-tw"] = "如果模組類別已添加到zServo_Lexmechanicus_categories文件資料庫中，並在mod_database文件中與相應模組匹配，伺服單元將標記這些類別。",
-		de = "Der Servitor markiert Mod-Kategorien, wenn sie der Datenbank in der Datei zServo_Lexmechanicus_categories hinzugefügt und dann mit dem entsprechenden Mod in der Datei mod_database abgeglichen wurden.",
-		fr = "Le serviteur marque les catégories de mods si elles ont été ajoutées à la base de données dans le fichier zServo_Lexmechanicus_categories, puis associées au mod correspondant dans le fichier mod_database.",
-		es = "El servidor marca las categorías de mods si se han agregado a la base de datos en el archivo zServo_Lexmechanicus_categories y luego se han asociado con el mod correspondiente en el archivo mod_database.",
-		it = "Il servitore contrassegna le categorie di mod se sono state aggiunte al database nel file zServo_Lexmechanicus_categories e poi associate al mod corrispondente nel file mod_database.",
-		ja = "サーヴィターは、zServo_Lexmechanicus_categoriesファイルのデータベースに追加され、mod_databaseファイルで対応するMODと一致した場合、MODカテゴリをマークします。",
-		ko = "서비터는 zServo_Lexmechanicus_categories 파일의 데이터베이스에 추가되고 mod_database 파일에서 해당 MOD와 일치한 경우 MOD 카테고리를 표시합니다.",
-		pl = "Serwitor oznacza kategorie modów, jeśli zostały dodane do bazy danych w pliku zServo_Lexmechanicus_categories, a następnie dopasowane do odpowiedniego modu w pliku mod_database.",
- ["pt-br"] = "O servidor marca as categorias de mods se elas tiverem sido adicionadas ao banco de dados no arquivo zServo_Lexmechanicus_categories e então correspondidas ao mod apropriado no arquivo mod_database.",
+		en = "The servitor marks mod Сategories if they have been added to the database in the Servo_Lexmechanicus_categories file and then matched with the corresponding mod in the mod_database file.",
+		ru = "Сервитор помечает категории для модов, если они были добавлены в базу данных в файл Servo_Lexmechanicus_categories, а затем соотнесены с соответствующим модом в файле mod_database.",
+ ["zh-cn"] = "如果模组类别已添加到Servo_Lexmechanicus_categories文件数据库中，并在mod_database文件中与相应模组匹配，伺服单元将标记这些类别。",
+ ["zh-tw"] = "如果模組類別已添加到Servo_Lexmechanicus_categories文件資料庫中，並在mod_database文件中與相應模組匹配，伺服單元將標記這些類別。",
+		de = "Der Servitor markiert Mod-Kategorien, wenn sie der Datenbank in der Datei Servo_Lexmechanicus_categories hinzugefügt und dann mit dem entsprechenden Mod in der Datei mod_database abgeglichen wurden.",
+		fr = "Le serviteur marque les catégories de mods si elles ont été ajoutées à la base de données dans le fichier Servo_Lexmechanicus_categories, puis associées au mod correspondant dans le fichier mod_database.",
+		es = "El servidor marca las categorías de mods si se han agregado a la base de datos en el archivo Servo_Lexmechanicus_categories y luego se han asociado con el mod correspondiente en el archivo mod_database.",
+		it = "Il servitore contrassegna le categorie di mod se sono state aggiunte al database nel file Servo_Lexmechanicus_categories e poi associate al mod corrispondente nel file mod_database.",
+		ja = "サーヴィターは、Servo_Lexmechanicus_categoriesファイルのデータベースに追加され、mod_databaseファイルで対応するMODと一致した場合、MODカテゴリをマークします。",
+		ko = "서비터는 Servo_Lexmechanicus_categories 파일의 데이터베이스에 추가되고 mod_database 파일에서 해당 MOD와 일치한 경우 MOD 카테고리를 표시합니다.",
+		pl = "Serwitor oznacza kategorie modów, jeśli zostały dodane do bazy danych w pliku Servo_Lexmechanicus_categories, a następnie dopasowane do odpowiedniego modu w pliku mod_database.",
+ ["pt-br"] = "O servidor marca as categorias de mods se elas tiverem sido adicionadas ao banco de dados no arquivo Servo_Lexmechanicus_categories e então correspondidas ao mod apropriado no arquivo mod_database.",
 	},
 
 	use_custom_names = {

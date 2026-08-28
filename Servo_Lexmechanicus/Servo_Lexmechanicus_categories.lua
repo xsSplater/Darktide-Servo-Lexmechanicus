@@ -1,5 +1,5 @@
--- zServo_Lexmechanicus_categories.lua
-local mod = get_mod("zServo_Lexmechanicus")
+-- Servo_Lexmechanicus_categories.lua
+local mod = get_mod("Servo_Lexmechanicus")
 
 return {
 	["Audio"] = {

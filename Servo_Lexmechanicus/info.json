@@ -1,13 +1,21 @@
 {
 	"name": "Servo-Lexmechanicus",
 	"description": "A Lexmechanicus servo-unit for categorizing and cataloging mods. Blessed by the Omnissiah.",
-	"version": "1.0.0",
+	"version": "1.2.0",
 	"author": "xsSplater",
 	"homepage": "https://www.nexusmods.com/warhammer40kdarktide/mods/680",
 	"source": "https://github.com/xsSplater/Darktide-Servo-Lexmechanicus",
 	"funding": {
 		"boosty": "https://boosty.to/xssplater",
 		"donationalerts": "https://www.donationalerts.com/r/xssplater"
+	},
+	"nexusId": "680",
+	"dependencies": {
+		"required": [],
+		"self_after": [
+			"SortModMenu"
+		],
+		"self_before": []
 	},
 	"localization": {
 		"de": {

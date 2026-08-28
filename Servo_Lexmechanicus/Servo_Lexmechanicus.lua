@@ -1,5 +1,5 @@
--- zServo_Lexmechanicus.lua
-local mod = get_mod("zServo_Lexmechanicus")
+-- Servo_Lexmechanicus.lua
+local mod = get_mod("Servo_Lexmechanicus")
 
 -- Loading categorization data
 local MOD_LIST = {}
@@ -37,16 +37,15 @@ end
 -- ============================================================================
 
 function mod.initialize_data()
-	MOD_CATEGORIES = safe_load_file("zServo_Lexmechanicus/zServo_Lexmechanicus_categories") or {}
+	MOD_CATEGORIES = safe_load_file("Servo_Lexmechanicus/Servo_Lexmechanicus_categories") or {}
 
-	local json_data = safe_load_json("zServo_Lexmechanicus/mod_database")
+	local json_data = safe_load_json("Servo_Lexmechanicus/mod_database")
 	if not json_data then
 		mod:error("Failed to load mod_database.json, mod will not work")
 		MOD_LIST = {}
 		return MOD_LIST
 	end
 
-	-- Extracting an array from the "mod_database" field
 	local mod_array = json_data.mod_database
 	if not mod_array or type(mod_array) ~= "table" then
 		mod:error("mod_database.json missing 'mod_database' array")
@@ -60,7 +59,6 @@ function mod.initialize_data()
 		if folder and type(folder) == "string" and folder ~= "" then
 			local category = entry.category or ""
 			if category ~= "" then
-				-- Store the key in lowercase for case-insensitive searching
 				MOD_LIST[folder:lower()] = {
 					category = category,
 					localized_name = entry.name or {}
@@ -145,7 +143,7 @@ local function localize_text(localization_table)
 end
 
 -- ============================================================================
--- CORE LOGIC: HOOK FOR CREATING MOD OPTIONS
+-- CORE LOGIC
 -- ============================================================================
 
 local dmf = get_mod("DMF")
@@ -154,7 +152,12 @@ if not dmf then
 	return
 end
 
--- Function to get the clean name of a mod
+-- Cache frequently used functions and variables at the module level
+local get_mod_var = mod.get
+local info_log = mod.info
+local debug_mode = mod:get("debug_mode")
+
+-- Function to get the clean name of a mod (remove existing prefixes)
 function mod.get_clean_mod_name(mod_id, current_name)
 	if not mod._clean_names_cache then
 		mod._clean_names_cache = {}
@@ -176,9 +179,11 @@ function mod.get_clean_mod_name(mod_id, current_name)
 	return clean_name
 end
 
--- Function for formatting the mod name
+-- Function for formatting the mod name with category prefix
 function mod.format_mod_name(mod_id, clean_name)
-	if not mod:get("enable_servo") then
+	-- Caching the setting inside the function to avoid calling mod:get every time it is called
+	local enable_servo = mod:get("enable_servo")
+	if not enable_servo then
 		return clean_name
 	end
 
@@ -203,74 +208,87 @@ function mod.format_mod_name(mod_id, clean_name)
 	end
 end
 
--- Function for updating mod names in options_widgets_data
+-- Rename mod names in dmf.options_widgets_data (main list)
 function mod.update_all_mod_names_in_options()
-	if not dmf or not dmf.options_widgets_data then
+	-- Caching frequently used objects and functions into local variables
+	local options_data = dmf.options_widgets_data
+	if not options_data then
 		if mod:get("debug_mode") then
 			mod:warning("DMF options data not available yet")
 		end
 		return 0
 	end
 
-	local updated = 0
-	local debug_mode = mod:get("debug_mode")
+	local enable_servo = mod:get("enable_servo")
+	if not enable_servo then
+		return 0
+	end
 
-	for _, mod_widgets in ipairs(dmf.options_widgets_data) do
+	-- Function and table caching
+	local get_clean = mod.get_clean_mod_name
+	local format_name = mod.format_mod_name
+	local original_names = mod._original_names or {}
+	local debug = mod:get("debug_mode")
+	local info = mod.info
+
+	local updated = 0
+	local options_data_count = #options_data
+
+	-- Use numeric 'for' instead of 'ipairs' for speed
+	for idx = 1, options_data_count do
+		local mod_widgets = options_data[idx]
 		if type(mod_widgets) == "table" and #mod_widgets > 0 then
 			local header_widget = mod_widgets[1]
 			if header_widget and header_widget.mod_name then
 				local mod_id = header_widget.mod_name
-				local current_name = header_widget.readable_mod_name or header_widget.title or mod_id
-				local clean_name = mod.get_clean_mod_name(mod_id, current_name)
-				local new_name = mod.format_mod_name(mod_id, clean_name)
+				-- Skip Mod Shrine to avoid breaking its validation
+				if mod_id ~= "mod_shrine" then
+					local current_name = header_widget.readable_mod_name or header_widget.title or mod_id
+					local clean_name = get_clean(mod_id, current_name)
+					local new_name = format_name(mod_id, clean_name)
 
-				if new_name ~= current_name then
-					if not mod._original_names then
-						mod._original_names = {}
-					end
-					if not mod._original_names[mod_id] then
-						mod._original_names[mod_id] = clean_name
-					end
+					if new_name ~= current_name then
+						if not mod._original_names then
+							mod._original_names = {}
+						end
+						if not mod._original_names[mod_id] then
+							mod._original_names[mod_id] = clean_name
+						end
 
-					header_widget.readable_mod_name = new_name
-					header_widget.title = new_name
-					updated = updated + 1
+						header_widget.readable_mod_name = new_name
+						header_widget.title = new_name
+						updated = updated + 1
 
-					if debug_mode then
-						mod:info("Updated: %s -> %s", mod_id, new_name)
+						if debug then
+							info("Updated: %s -> %s", mod_id, new_name)
+						end
 					end
 				end
 			end
 		end
 	end
 
-	if debug_mode then
-		mod:info("=== Updated %d mod names ===", updated)
+	if debug then
+		info("=== Updated %d mod names ===", updated)
 	end
 
 	return updated
 end
 
 -- ============================================================================
--- DMF Hooks
+-- HOOKS
 -- ============================================================================
 
-mod:hook("DMFOptionsView", "_setup_category_config", function(func, self, config)
-	local result = func(self, config)
-	if mod:get("enable_servo") then
-		mod.update_all_mod_names_in_options()
-	end
-	return result
-end)
-
+-- Update names when menu opens
 mod:hook_safe("DMFOptionsView", "on_enter", function(self)
 	if mod:get("enable_servo") then
 		mod.update_all_mod_names_in_options()
 	end
 end)
 
-mod:hook("DMFOptionsView", "_reset_options_view", function(func, self, reset_all)
-	local result = func(self, reset_all)
+-- Also update after settings are created (for initial load)
+mod:hook(dmf, "create_mod_options_settings", function(func, self, options_templates)
+	local result = func(self, options_templates)
 	if mod:get("enable_servo") then
 		mod.update_all_mod_names_in_options()
 	end
@@ -278,48 +296,11 @@ mod:hook("DMFOptionsView", "_reset_options_view", function(func, self, reset_all
 end)
 
 -- ============================================================================
--- HOOK ON create_mod_options_settings
--- ============================================================================
-
-local original_create_mod_options_settings = dmf.create_mod_options_settings
-
-function dmf.create_mod_options_settings(self, options_templates)
-	local result = original_create_mod_options_settings(self, options_templates)
-
-	if mod:get("enable_servo") then
-		local settings = options_templates.settings
-		for i = 1, #settings do
-			local setting = settings[i]
-			if setting.mod_name and MOD_LIST[setting.mod_name:lower()] then
-				local mod_id = setting.mod_name
-				if setting.widget_type == "group_header" and setting.display_name then
-					local current_name = setting.display_name
-					local clean_name = mod.get_clean_mod_name(mod_id, current_name)
-					local new_name = mod.format_mod_name(mod_id, clean_name)
-					if new_name ~= current_name then
-						if not mod._original_names then mod._original_names = {} end
-						if not mod._original_names[mod_id] then
-							mod._original_names[mod_id] = clean_name
-						end
-						setting.display_name = new_name
-						if mod:get("debug_mode") then
-							mod:info("Updated category header: %s -> %s", mod_id, new_name)
-						end
-					end
-				end
-			end
-		end
-	end
-
-	return result
-end
-
--- ============================================================================
--- INITIALIZING THE MOD
+-- INITIALIZATION
 -- ============================================================================
 
 mod.on_all_mods_loaded = function()
-	mod:info("=== zServo_Lexmechanicus Initialized ===")
+	mod:info("=== Servo_Lexmechanicus Initialized ===")
 	mod:info("Language: %s", get_current_language())
 	mod:info("Categories loaded: %d", table.size(MOD_LIST))
 	mod._clean_names_cache = {}
@@ -329,14 +310,14 @@ mod.on_all_mods_loaded = function()
 end
 
 mod.on_enabled = function()
-	mod:info("zServo_Lexmechanicus enabled")
+	mod:info("Servo_Lexmechanicus enabled")
 	if mod:get("enable_servo") then
 		mod.update_all_mod_names_in_options()
 	end
 end
 
 mod.on_disabled = function()
-	mod:info("zServo_Lexmechanicus disabled")
+	mod:info("Servo_Lexmechanicus disabled")
 	if dmf.options_widgets_data and mod._original_names then
 		for mod_id, original_name in pairs(mod._original_names) do
 			for _, mod_data in ipairs(dmf.options_widgets_data) do
@@ -351,16 +332,16 @@ mod.on_disabled = function()
 end
 
 mod.on_setting_changed = function(setting_id)
-	 if setting_id == "enable_servo" or 
-		setting_id == "show_category_prefix" or 
+	if setting_id == "enable_servo" or
+		setting_id == "show_category_prefix" or
 		setting_id == "use_custom_names" or
 		setting_id == "language_override" then
-		
+
 		if setting_id == "language_override" then
 			_current_language = nil
 			mod._clean_names_cache = {}
 		end
-		
+
 		if mod:get("enable_servo") then
 			mod.update_all_mod_names_in_options()
 			mod:info("Settings changed, mod names updated")
